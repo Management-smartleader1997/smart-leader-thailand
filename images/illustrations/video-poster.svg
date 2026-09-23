@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ภาพประกอบวิทยากรกำลังบันทึกวิดีโอบทเรียน">
+<title>ภาพประกอบวิทยากรกำลังบันทึกวิดีโอบทเรียน</title>
+
+  
+  <rect width="640" height="360" fill="#F3F7F2"/>
+  
+  <rect x="0" y="300" width="640" height="60" fill="#D9E6DA"/>
+  <rect x="0" y="294" width="640" height="6" fill="#C9E7C0"/>
+  <circle cx="130" cy="120" r="70" fill="none" stroke="#FFFFFF" stroke-width="16"/><circle cx="130" cy="120" r="70" fill="none" stroke="#C9E7C0" stroke-width="4"/>
+  <rect x="126" y="190" width="8" height="110" fill="#9AA59E"/>
+  <g transform="translate(70 330) scale(1.1)">
+  <ellipse cx="-14" cy="-58" rx="11" ry="26" transform="rotate(-28 -14 -58)" fill="#4CBB4A"/>
+  <ellipse cx="14" cy="-60" rx="11" ry="28" transform="rotate(26 14 -60)" fill="#1F8A3E"/>
+  <ellipse cx="0" cy="-72" rx="11" ry="30" fill="#2FA84F"/>
+  <path d="M-20 -34 H20 L15 0 H-15 Z" fill="#0E4D26"/></g>
+  <g transform="translate(280 340) scale(1.15)">
+    
+    <rect x="-18" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/><rect x="3" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/>
+    <ellipse cx="-12" cy="-2" rx="11" ry="5" fill="#1B2A20"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#1B2A20"/>
+    <g transform="translate(-24 -142) rotate(125)"><rect x="-6.5" y="0" width="13" height="64" rx="6.5" fill="#0E4D26"/><circle cx="0" cy="66" r="7" fill="#E0AC85"/></g><rect x="24" y="-146" width="13" height="66" rx="6.5" fill="#0E4D26"/><circle cx="30.5" cy="-78" r="7" fill="#E0AC85"/>
+    <rect x="-6" y="-166" width="12" height="20" fill="#E0AC85"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#0E4D26"/>
+    <path d="M-9 -152 L0 -136 L9 -152 Z" fill="#FFFFFF"/>
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#E0AC85"/>
+    
+  </g>
+  <g stroke="#4A554E" stroke-width="5" stroke-linecap="round"><line x1="520" y1="236" x2="482" y2="352"/><line x1="520" y1="236" x2="558" y2="352"/><line x1="520" y1="236" x2="520" y2="352"/></g>
+  <rect x="482" y="190" width="80" height="48" rx="8" fill="#1B2A20"/><circle cx="482" cy="214" r="18" fill="#4A554E"/><circle cx="482" cy="214" r="9" fill="#9FD3F0"/>
+  <circle cx="548" cy="202" r="5" fill="#E5484D"/>
+
+</svg>

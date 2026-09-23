@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ภาพประกอบการโค้ชแบบตัวต่อตัวระหว่างผู้นำและสมาชิกทีม">
+<title>ภาพประกอบการโค้ชแบบตัวต่อตัวระหว่างผู้นำและสมาชิกทีม</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="360" fill="#EEF8EF"/><circle cx="524.8" cy="43.199999999999996" r="198.00000000000003" fill="#DCF1DE"/><circle cx="51.2" cy="342" r="108" fill="#DCF1DE" opacity=".7"/><rect width="640" height="360" fill="url(#dots)"/>
+  <g><path d="M308 106 L316 122 L292 106 Z" fill="#FFFFFF"/><rect x="176" y="56" width="150" height="52" rx="16" fill="#FFFFFF"/><text x="206" y="92" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#2FA84F">?</text><rect x="230" y="74" width="76" height="7" rx="3.5" fill="#D4E4CE"/><rect x="230" y="88" width="50" height="7" rx="3.5" fill="#D4E4CE"/></g>
+  <g><path d="M418 160 L410 176 L434 160 Z" fill="#2FA84F"/><rect x="400" y="110" width="150" height="52" rx="16" fill="#2FA84F"/><rect x="420" y="128" width="96" height="7" rx="3.5" fill="#FFFFFF"/><rect x="420" y="142" width="64" height="7" rx="3.5" fill="#FFFFFF"/></g>
+  <g transform="translate(200 363.5) scale(1.05)">
+    
+    
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#0E4D26"/><circle cx="-30.5" cy="-78" r="7" fill="#E0AC85"/><rect x="24" y="-146" width="13" height="66" rx="6.5" fill="#0E4D26"/><circle cx="30.5" cy="-78" r="7" fill="#E0AC85"/>
+    <rect x="-6" y="-166" width="12" height="20" fill="#E0AC85"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#0E4D26"/>
+    <path d="M-9 -152 L0 -136 L9 -152 Z" fill="#FFFFFF"/>
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#E0AC85"/>
+    
+  </g>
+  <g transform="translate(440 363.5) scale(1.05)">
+    <rect x="-24" y="-198" width="48" height="54" rx="20" fill="#5A3E2B"/>
+    
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#4CBB4A"/><circle cx="-30.5" cy="-78" r="7" fill="#F2C9A5"/><rect x="24" y="-146" width="13" height="66" rx="6.5" fill="#4CBB4A"/><circle cx="30.5" cy="-78" r="7" fill="#F2C9A5"/>
+    <rect x="-6" y="-166" width="12" height="20" fill="#F2C9A5"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#4CBB4A"/>
+    
+    <circle cx="0" cy="-184" r="21" fill="#5A3E2B"/><circle cx="0" cy="-177" r="19" fill="#F2C9A5"/>
+    
+  </g>
+  <rect x="90" y="290" width="460" height="18" rx="9" fill="#0E4D26"/>
+  <rect x="300" y="308" width="40" height="52" fill="#0E4D26"/>
+  <rect x="304" y="268" width="32" height="22" rx="4" fill="#FFFFFF"/><path d="M336 274 q12 0 12 8 q0 8 -12 8" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <g transform="translate(590 360) scale(0.95)">
+  <ellipse cx="-14" cy="-58" rx="11" ry="26" transform="rotate(-28 -14 -58)" fill="#4CBB4A"/>
+  <ellipse cx="14" cy="-60" rx="11" ry="28" transform="rotate(26 14 -60)" fill="#1F8A3E"/>
+  <ellipse cx="0" cy="-72" rx="11" ry="30" fill="#2FA84F"/>
+  <path d="M-20 -34 H20 L15 0 H-15 Z" fill="#0E4D26"/></g>
+  <path d="M320 49 Q321.98 58.02 331 60 Q321.98 61.98 320 71 Q318.02 61.98 309 60 Q318.02 58.02 320 49 Z" fill="#8DD35A"/>
+
+</svg>

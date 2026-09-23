@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ภาพประกอบการใช้ Generative AI บนแล็ปท็อปเพื่อทำงานเสร็จเร็วขึ้น">
+<title>ภาพประกอบการใช้ Generative AI บนแล็ปท็อปเพื่อทำงานเสร็จเร็วขึ้น</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="360" fill="#EEF8EF"/><circle cx="320" cy="396.00000000000006" r="251.99999999999997" fill="#DCF1DE"/><circle cx="588.8000000000001" cy="28.8" r="79.2" fill="#DCF1DE" opacity=".8"/><rect width="640" height="360" fill="url(#dots)"/>
+  <g><rect x="190" y="70" width="260" height="161.2" rx="10" fill="#0A2E18"/>
+    <rect x="198" y="78" width="244" height="145.2" rx="5" fill="#FFFFFF"/>
+    <rect x="212" y="92" width="216" height="30" rx="8" fill="#EEF8EF"/><path d="M230 99 Q231.44 105.56 238 107 Q231.44 108.44 230 115 Q228.56 108.44 222 107 Q228.56 105.56 230 99 Z" fill="#2FA84F"/><rect x="246" y="104" width="120" height="7" rx="3.5" fill="#A9BFAE"/>
+    <rect x="214" y="138" width="180" height="7" rx="3.5" fill="#C9E7C0"/><rect x="214" y="154" width="150" height="7" rx="3.5" fill="#C9E7C0"/><rect x="214" y="170" width="190" height="7" rx="3.5" fill="#C9E7C0"/><rect x="214" y="186" width="120" height="7" rx="3.5" fill="#C9E7C0"/>
+    <rect x="352" y="202" width="62" height="18" rx="9" fill="#2FA84F"/>
+    <path d="M169.2 231.2 H470.8 L455.2 243.2 H184.8 Z" fill="#0E4D26"/></g>
+  <g transform="translate(110 150)"><circle r="54" fill="#FFFFFF"/><circle r="44" fill="none" stroke="#8DD35A" stroke-width="8"/>
+    <path d="M0 -44 A44 44 0 0 1 38 22" fill="none" stroke="#1F8A3E" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 -22 V0 L14 10" stroke="#0E4D26" stroke-width="6" fill="none" stroke-linecap="round"/></g>
+  <g><rect x="488" y="116" width="120" height="150" rx="14" fill="#0E4D26" opacity=".08"/><rect x="488" y="110" width="120" height="150" rx="14" fill="#FFFFFF"/><circle cx="512" cy="142" r="11" fill="#2FA84F"/><path d="M507.05 142 l3.3 3.52 l6.050000000000001 -6.82" stroke="#FFFFFF" stroke-width="2.8600000000000003" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="530" y="138" width="58" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="512" cy="180" r="11" fill="#2FA84F"/><path d="M507.05 180 l3.3 3.52 l6.050000000000001 -6.82" stroke="#FFFFFF" stroke-width="2.8600000000000003" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="530" y="176" width="48" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="512" cy="218" r="11" fill="#2FA84F"/><path d="M507.05 218 l3.3 3.52 l6.050000000000001 -6.82" stroke="#FFFFFF" stroke-width="2.8600000000000003" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="530" y="214" width="62" height="7" rx="3.5" fill="#D4E4CE"/></g>
+  <path d="M470 46 Q472.52 57.48 484 60 Q472.52 62.52 470 74 Q467.48 62.52 456 60 Q467.48 57.48 470 46 Z" fill="#8DD35A"/><path d="M160 51 Q161.62 58.38 169 60 Q161.62 61.62 160 69 Q158.38 61.62 151 60 Q158.38 58.38 160 51 Z" fill="#2FA84F"/><path d="M560 290 Q561.8 298.2 570 300 Q561.8 301.8 560 310 Q558.2 301.8 550 300 Q558.2 298.2 560 290 Z" fill="#8DD35A"/>
+
+</svg>

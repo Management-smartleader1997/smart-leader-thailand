@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="ภาพประกอบรายการทักษะสำคัญของผู้นำยุค AI">
+<title>ภาพประกอบรายการทักษะสำคัญของผู้นำยุค AI</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="400" fill="#EEF8EF"/><circle cx="96" cy="60" r="200" fill="#DCF1DE"/><circle cx="608" cy="360" r="140" fill="#DCF1DE" opacity=".7"/><rect width="640" height="400" fill="url(#dots)"/>
+  <g><rect x="250" y="56" width="280" height="300" rx="14" fill="#0E4D26" opacity=".08"/><rect x="250" y="50" width="280" height="300" rx="14" fill="#FFFFFF"/><circle cx="284" cy="96" r="16" fill="#8DD35A"/>
+      <text x="284" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">1</text>
+      <rect x="314" y="88" width="150" height="7" rx="3.5" fill="#D4E4CE"/><rect x="314" y="102" width="90" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="284" cy="150" r="16" fill="#4CBB4A"/>
+      <text x="284" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">2</text>
+      <rect x="314" y="142" width="120" height="7" rx="3.5" fill="#D4E4CE"/><rect x="314" y="156" width="70" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="284" cy="204" r="16" fill="#2FA84F"/>
+      <text x="284" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">3</text>
+      <rect x="314" y="196" width="170" height="7" rx="3.5" fill="#D4E4CE"/><rect x="314" y="210" width="100" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="284" cy="258" r="16" fill="#1F8A3E"/>
+      <text x="284" y="264" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">4</text>
+      <rect x="314" y="250" width="110" height="7" rx="3.5" fill="#D4E4CE"/><rect x="314" y="264" width="80" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="284" cy="312" r="16" fill="#0E4D26"/>
+      <text x="284" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">5</text>
+      <rect x="314" y="304" width="140" height="7" rx="3.5" fill="#D4E4CE"/><rect x="314" y="318" width="60" height="7" rx="3.5" fill="#D4E4CE"/></g>
+  <g transform="translate(150 370) scale(1.05)">
+    
+    <rect x="-18" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/><rect x="3" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/>
+    <ellipse cx="-12" cy="-2" rx="11" ry="5" fill="#1B2A20"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#1B2A20"/>
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#0E4D26"/><circle cx="-30.5" cy="-78" r="7" fill="#E0AC85"/><g transform="translate(24 -142) rotate(-125)"><rect x="-6.5" y="0" width="13" height="64" rx="6.5" fill="#0E4D26"/><circle cx="0" cy="66" r="7" fill="#E0AC85"/></g>
+    <rect x="-6" y="-166" width="12" height="20" fill="#E0AC85"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#0E4D26"/>
+    <path d="M-9 -152 L0 -136 L9 -152 Z" fill="#FFFFFF"/>
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#E0AC85"/>
+    
+  </g>
+  <g><rect x="557" y="50" width="6" height="12" rx="3" fill="#0E4D26"/><rect x="557" y="106" width="6" height="12" rx="3" fill="#0E4D26"/>
+      <rect x="538" y="69" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="594" y="69" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="569" y="50" width="6" height="12" rx="3" fill="#0E4D26"/><rect x="569" y="106" width="6" height="12" rx="3" fill="#0E4D26"/>
+      <rect x="538" y="81" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="594" y="81" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="581" y="50" width="6" height="12" rx="3" fill="#0E4D26"/><rect x="581" y="106" width="6" height="12" rx="3" fill="#0E4D26"/>
+      <rect x="538" y="93" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="594" y="93" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="548" y="60" width="48" height="48" rx="9.600000000000001" fill="#0E4D26"/>
+    <text x="572" y="91.68" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20.16" fill="#8DD35A">AI</text></g>
+  <path d="M90 78 Q92.16 87.84 102 90 Q92.16 92.16 90 102 Q87.84 92.16 78 90 Q87.84 87.84 90 78 Z" fill="#8DD35A"/>
+
+</svg>

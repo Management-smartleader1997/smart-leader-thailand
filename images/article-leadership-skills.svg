@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="ภาพประกอบโครงสร้างทีมและผู้นำในองค์กร">
+<title>ภาพประกอบโครงสร้างทีมและผู้นำในองค์กร</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="400" fill="#EEF8EF"/><circle cx="320" cy="440.00000000000006" r="280" fill="#DCF1DE"/><circle cx="588.8000000000001" cy="32" r="88" fill="#DCF1DE" opacity=".8"/><rect width="640" height="400" fill="url(#dots)"/>
+  <g stroke="#1F8A3E" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M320 132 V180 M160 180 H480 M160 180 V230 M320 180 V230 M480 180 V230"/>
+    <path d="M160 290 V310 M110 310 H210 M110 310 V330 M210 310 V330"/>
+  </g>
+  <circle cx="320" cy="92" r="44" fill="#FFFFFF"/>
+  <clipPath id="c32092"><circle cx="320" cy="92" r="40"/></clipPath>
+  <g clip-path="url(#c32092)"><rect x="276" y="48" width="88" height="88" fill="#DCF1DE"/>
+  <rect x="292.72" y="100.8" width="54.56" height="44" rx="22" fill="#0E4D26"/>
+  <circle cx="320" cy="82.32" r="17.6" fill="#2A211C"/><circle cx="320" cy="86.72" r="15.84" fill="#E0AC85"/></g>
+  <circle cx="160" cy="262" r="34" fill="#FFFFFF"/>
+  <clipPath id="c160262"><circle cx="160" cy="262" r="30"/></clipPath>
+  <g clip-path="url(#c160262)"><rect x="126" y="228" width="68" height="68" fill="#DCF1DE"/>
+  <rect x="138.92000000000002" y="268.8" width="42.16" height="34" rx="17" fill="#2FA84F"/>
+  <circle cx="160" cy="254.52" r="13.600000000000001" fill="#5A3E2B"/><circle cx="160" cy="257.92" r="12.24" fill="#F2C9A5"/></g><circle cx="320" cy="262" r="34" fill="#FFFFFF"/>
+  <clipPath id="c320262"><circle cx="320" cy="262" r="30"/></clipPath>
+  <g clip-path="url(#c320262)"><rect x="286" y="228" width="68" height="68" fill="#DCF1DE"/>
+  <rect x="298.92" y="268.8" width="42.16" height="34" rx="17" fill="#4CBB4A"/>
+  <circle cx="320" cy="254.52" r="13.600000000000001" fill="#2A211C"/><circle cx="320" cy="257.92" r="12.24" fill="#C68B62"/></g><circle cx="480" cy="262" r="34" fill="#FFFFFF"/>
+  <clipPath id="c480262"><circle cx="480" cy="262" r="30"/></clipPath>
+  <g clip-path="url(#c480262)"><rect x="446" y="228" width="68" height="68" fill="#DCF1DE"/>
+  <rect x="458.92" y="268.8" width="42.16" height="34" rx="17" fill="#1F8A3E"/>
+  <circle cx="480" cy="254.52" r="13.600000000000001" fill="#2A211C"/><circle cx="480" cy="257.92" r="12.24" fill="#9A6444"/></g>
+  <circle cx="110" cy="352" r="24" fill="#FFFFFF"/>
+  <clipPath id="c110352"><circle cx="110" cy="352" r="20"/></clipPath>
+  <g clip-path="url(#c110352)"><rect x="86" y="328" width="48" height="48" fill="#DCF1DE"/>
+  <rect x="95.12" y="356.8" width="29.759999999999998" height="24" rx="12" fill="#8DD35A"/>
+  <circle cx="110" cy="346.72" r="9.600000000000001" fill="#2A211C"/><circle cx="110" cy="349.12" r="8.64" fill="#C68B62"/></g><circle cx="210" cy="352" r="24" fill="#FFFFFF"/>
+  <clipPath id="c210352"><circle cx="210" cy="352" r="20"/></clipPath>
+  <g clip-path="url(#c210352)"><rect x="186" y="328" width="48" height="48" fill="#DCF1DE"/>
+  <rect x="195.12" y="356.8" width="29.759999999999998" height="24" rx="12" fill="#2FA84F"/>
+  <circle cx="210" cy="346.72" r="9.600000000000001" fill="#5A3E2B"/><circle cx="210" cy="349.12" r="8.64" fill="#E0AC85"/></g>
+  <circle cx="356" cy="60" r="16" fill="#8DD35A"/><path d="M349 60 l5 5 l9 -10" stroke="#0E4D26" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M560 77 Q562.34 87.66 573 90 Q562.34 92.34 560 103 Q557.66 92.34 547 90 Q557.66 87.66 560 77 Z" fill="#8DD35A"/><path d="M84 101 Q85.62 108.38 93 110 Q85.62 111.62 84 119 Q82.38 111.62 75 110 Q82.38 108.38 84 101 Z" fill="#2FA84F"/>
+
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ภาพประกอบเส้นทางการเติบโตด้วยทักษะแห่งอนาคต">
+<title>ภาพประกอบเส้นทางการเติบโตด้วยทักษะแห่งอนาคต</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="360" fill="#EEF8EF"/><circle cx="320" cy="396.00000000000006" r="251.99999999999997" fill="#DCF1DE"/><circle cx="588.8000000000001" cy="28.8" r="79.2" fill="#DCF1DE" opacity=".8"/><rect width="640" height="360" fill="url(#dots)"/>
+  <path d="M40 330 C180 320 260 260 330 210 S470 110 560 80" fill="none" stroke="#8DD35A" stroke-width="22" stroke-linecap="round"/>
+  <path d="M40 330 C180 320 260 260 330 210 S470 110 560 80" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="4 14" stroke-linecap="round"/>
+  <path d="M548 58 L590 72 L560 104 Z" fill="#1F8A3E"/>
+  <g transform="translate(300 244) scale(0.8)">
+    
+    <rect x="-18" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/><rect x="3" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/>
+    <ellipse cx="-12" cy="-2" rx="11" ry="5" fill="#1B2A20"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#1B2A20"/>
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#2FA84F"/><circle cx="-30.5" cy="-78" r="7" fill="#C68B62"/><g transform="translate(24 -142) rotate(-125)"><rect x="-6.5" y="0" width="13" height="64" rx="6.5" fill="#2FA84F"/><circle cx="0" cy="66" r="7" fill="#C68B62"/></g>
+    <rect x="-6" y="-166" width="12" height="20" fill="#C68B62"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#2FA84F"/>
+    
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#C68B62"/>
+    
+  </g>
+  <g transform="translate(120 120) scale(0.8)">
+  <circle cx="0" cy="0" r="62" fill="#8DD35A" opacity=".25"/>
+  <path d="M0 -44 C26 -44 42 -24 42 0 C42 18 30 28 24 40 H-24 C-30 28 -42 18 -42 0 C-42 -24 -26 -44 0 -44 Z" fill="#8DD35A"/>
+  <path d="M-9 40 V20 M9 40 V20 M-9 20 Q0 6 9 20" fill="none" stroke="#0E4D26" stroke-width="5" stroke-linecap="round"/>
+  <rect x="-22" y="42" width="44" height="12" rx="5" fill="#0E4D26"/><rect x="-18" y="57" width="36" height="10" rx="5" fill="#146B31"/></g>
+  <g><circle cx="470" cy="250" r="30" fill="none" stroke="#1F8A3E" stroke-width="12.6" stroke-dasharray="11.78"/><circle cx="470" cy="250" r="24.599999999999998" fill="#1F8A3E"/><circle cx="470" cy="250" r="9.6" fill="#EEF8EF"/></g><g><circle cx="522" cy="292" r="20" fill="none" stroke="#4CBB4A" stroke-width="8.4" stroke-dasharray="7.85"/><circle cx="522" cy="292" r="16.4" fill="#4CBB4A"/><circle cx="522" cy="292" r="6.4" fill="#EEF8EF"/></g>
+  <g><rect x="400" y="146" width="92" height="52" rx="12" fill="#0E4D26" opacity=".08"/><rect x="400" y="140" width="92" height="52" rx="12" fill="#FFFFFF"/><rect x="414" y="156" width="64" height="7" rx="3.5" fill="#D4E4CE"/><rect x="414" y="170" width="40" height="7" rx="3.5" fill="#D4E4CE"/></g>
+  <path d="M230 58 Q232.16 67.84 242 70 Q232.16 72.16 230 82 Q227.84 72.16 218 70 Q227.84 67.84 230 58 Z" fill="#8DD35A"/><path d="M600 181 Q601.62 188.38 609 190 Q601.62 191.62 600 199 Q598.38 191.62 591 190 Q598.38 188.38 600 181 Z" fill="#2FA84F"/>
+
+</svg>

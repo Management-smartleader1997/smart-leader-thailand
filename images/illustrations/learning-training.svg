@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="ภาพประกอบผู้เข้าอบรมถือไมโครโฟนนำเสนองานหน้าฟลิปชาร์ต">
+<title>ภาพประกอบผู้เข้าอบรมถือไมโครโฟนนำเสนองานหน้าฟลิปชาร์ต</title>
+
+  
+  <rect width="640" height="480" fill="#F3F7F2"/>
+  
+  <rect x="0" y="380" width="640" height="100" fill="#D9E6DA"/>
+  <rect x="0" y="374" width="640" height="6" fill="#C9E7C0"/>
+  <g>
+  <g stroke="#9AA59E" stroke-width="5" stroke-linecap="round">
+    <line x1="288.8" y1="266" x2="269.6" y2="388"/>
+    <line x1="391.2" y1="266" x2="410.4" y2="388"/>
+    <line x1="340" y1="266" x2="340" y2="366"/></g>
+  <rect x="254" y="62" width="172" height="212" rx="4" fill="#C9D1CB"/>
+  <rect x="260" y="70" width="160" height="200" fill="#FFFFFF"/>
+  <rect x="250" y="56" width="180" height="12" rx="4" fill="#6B7770"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M279.2 98 h80" stroke="#1F8A3E" stroke-width="4"/>
+  <circle cx="308" cy="154" r="19.2" stroke="#2FA84F" stroke-width="3"/>
+  <path d="M343.2 142 h48 M343.2 162 h35.2" stroke="#2F5D8A" stroke-width="3"/>
+  <path d="M282.4 214 l22.400000000000002 -20 l22.400000000000002 12 l32 -32 l32 -16" stroke="#D9534F" stroke-width="3"/>
+  <path d="M279.2 242 h96" stroke="#D4E4CE" stroke-width="3"/></g></g>
+  <g transform="translate(160 440) scale(1.2)">
+    <rect x="-24" y="-198" width="48" height="54" rx="20" fill="#5A3E2B"/>
+    <rect x="-18" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/><rect x="3" y="-82" width="15" height="80" rx="7" fill="#0A2E18"/>
+    <ellipse cx="-12" cy="-2" rx="11" ry="5" fill="#1B2A20"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#1B2A20"/>
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#8C8F8A"/><circle cx="-30.5" cy="-78" r="7" fill="#F2C9A5"/><rect x="24" y="-146" width="13" height="46" rx="6.5" fill="#8C8F8A"/>
+    <rect x="-6" y="-166" width="12" height="20" fill="#F2C9A5"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#8C8F8A"/>
+    
+    <circle cx="0" cy="-184" r="21" fill="#5A3E2B"/><circle cx="0" cy="-177" r="19" fill="#F2C9A5"/>
+    <g transform="translate(30.5 -104) rotate(163)"><rect x="-6.5" y="0" width="13" height="48" rx="6.5" fill="#8C8F8A"/></g>
+    <g transform="translate(14 -148) rotate(-20)"><rect x="-3.5" y="-18" width="7" height="20" rx="3" fill="#1B2A20"/><circle cx="0" cy="-19" r="5" fill="#4A554E"/></g><circle cx="14" cy="-148" r="7" fill="#F2C9A5"/>
+  </g>
+  <g transform="translate(500 430) scale(1.12)">
+    <rect x="-24" y="-198" width="48" height="54" rx="20" fill="#2A211C"/>
+    <rect x="-18" y="-82" width="15" height="80" rx="7" fill="#C9B79C"/><rect x="3" y="-82" width="15" height="80" rx="7" fill="#C9B79C"/>
+    <ellipse cx="-12" cy="-2" rx="11" ry="5" fill="#1B2A20"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#1B2A20"/>
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#0A2E18"/><circle cx="-30.5" cy="-78" r="7" fill="#C68B62"/><rect x="24" y="-146" width="13" height="66" rx="6.5" fill="#0A2E18"/><circle cx="30.5" cy="-78" r="7" fill="#C68B62"/>
+    <rect x="-6" y="-166" width="12" height="20" fill="#C68B62"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#0A2E18"/>
+    
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#C68B62"/>
+    
+  </g>
+  <path d="M430 480 L520 420 H640 V480 Z" fill="#E3A55B"/><g transform="translate(560 440) scale(1)"><rect x="-6" y="-44" width="12" height="44" rx="4" fill="#C8742F" opacity=".85"/><rect x="-6" y="-30" width="12" height="12" fill="#FFFFFF"/><rect x="-3.5" y="-52" width="7" height="9" rx="2" fill="#FFFFFF"/></g><g transform="translate(590 452) scale(1)"><rect x="-6" y="-44" width="12" height="44" rx="4" fill="#C8742F" opacity=".85"/><rect x="-6" y="-30" width="12" height="12" fill="#FFFFFF"/><rect x="-3.5" y="-52" width="7" height="9" rx="2" fill="#FFFFFF"/></g><rect x="500" y="440" width="34" height="24" rx="2" fill="#FFFFFF" transform="rotate(-12 517 452)"/>
+
+</svg>

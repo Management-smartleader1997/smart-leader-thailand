@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="ภาพประกอบหลอดไฟและเฟืองสื่อถึงความคิดสร้างสรรค์และทักษะแห่งอนาคต">
+<title>ภาพประกอบหลอดไฟและเฟืองสื่อถึงความคิดสร้างสรรค์และทักษะแห่งอนาคต</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="400" fill="#EEF8EF"/><circle cx="96" cy="60" r="200" fill="#DCF1DE"/><circle cx="608" cy="360" r="140" fill="#DCF1DE" opacity=".7"/><rect width="640" height="400" fill="url(#dots)"/>
+  <g transform="translate(320 180) scale(1.55)">
+  <circle cx="0" cy="0" r="62" fill="#8DD35A" opacity=".25"/>
+  <path d="M0 -44 C26 -44 42 -24 42 0 C42 18 30 28 24 40 H-24 C-30 28 -42 18 -42 0 C-42 -24 -26 -44 0 -44 Z" fill="#8DD35A"/>
+  <path d="M-9 40 V20 M9 40 V20 M-9 20 Q0 6 9 20" fill="none" stroke="#0E4D26" stroke-width="5" stroke-linecap="round"/>
+  <rect x="-22" y="42" width="44" height="12" rx="5" fill="#0E4D26"/><rect x="-18" y="57" width="36" height="10" rx="5" fill="#146B31"/></g>
+  <g><circle cx="160" cy="280" r="40" fill="none" stroke="#1F8A3E" stroke-width="16.8" stroke-dasharray="15.71"/><circle cx="160" cy="280" r="32.8" fill="#1F8A3E"/><circle cx="160" cy="280" r="12.8" fill="#EEF8EF"/></g><g><circle cx="222" cy="330" r="26" fill="none" stroke="#4CBB4A" stroke-width="10.92" stroke-dasharray="10.21"/><circle cx="222" cy="330" r="21.32" fill="#4CBB4A"/><circle cx="222" cy="330" r="8.32" fill="#EEF8EF"/></g>
+  <g><circle cx="488" cy="110" r="32" fill="none" stroke="#0E4D26" stroke-width="13.44" stroke-dasharray="12.57"/><circle cx="488" cy="110" r="26.24" fill="#0E4D26"/><circle cx="488" cy="110" r="10.24" fill="#EEF8EF"/></g>
+  <g><rect x="440" y="256" width="150" height="84" rx="12" fill="#0E4D26" opacity=".08"/><rect x="440" y="250" width="150" height="84" rx="12" fill="#FFFFFF"/><circle cx="466" cy="276" r="10" fill="#2FA84F"/><path d="M461.5 276 l3 3.2 l5.5 -6.2" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="484" y="272" width="84" height="7" rx="3.5" fill="#D4E4CE"/><circle cx="466" cy="308" r="10" fill="#2FA84F"/><path d="M461.5 308 l3 3.2 l5.5 -6.2" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="484" y="304" width="64" height="7" rx="3.5" fill="#D4E4CE"/></g>
+  <path d="M170 86 Q172.52 97.48 184 100 Q172.52 102.52 170 114 Q167.48 102.52 156 100 Q167.48 97.48 170 86 Z" fill="#8DD35A"/><path d="M560 190 Q561.8 198.2 570 200 Q561.8 201.8 560 210 Q558.2 201.8 550 200 Q558.2 198.2 560 190 Z" fill="#2FA84F"/><path d="M410 52 Q411.44 58.56 418 60 Q411.44 61.44 410 68 Q408.56 61.44 402 60 Q408.56 58.56 410 52 Z" fill="#8DD35A"/>
+
+</svg>

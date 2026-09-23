@@ -1,0 +1,47 @@
+Prompt สำหรับสร้างภาพ AI — Smart Leader Thailand
+======================================================
+วิธีใช้: สร้างภาพด้วย ChatGPT / Gemini / Adobe Firefly / Midjourney
+แล้วบันทึกทับชื่อไฟล์เดิมในโฟลเดอร์นี้ (images/photos/) — ไม่ต้องแก้โค้ด
+หลังเปลี่ยนภาพ ให้แก้ข้อความ alt ใน index.html ให้ตรงกับภาพใหม่
+
+Style ที่ใช้ร่วมกันทุกภาพ (ต่อท้าย prompt):
+  photorealistic, Thai professionals, modern hotel training room, warm natural lighting,
+  subtle green accents, candid documentary style, no text, no logos, no face masks
+
+------------------------------------------------------
+hero-training.jpg  (แนวตั้ง 4:5 ประมาณ 1200x1500)
+  A confident Thai male corporate trainer in a dark suit leading an engaging leadership
+  workshop, Thai professionals seated at wooden tables with notebooks, flipchart in background
+
+learning-training.jpg  (4:3 ประมาณ 1200x900)
+  A Thai female employee presenting group ideas at a flipchart with a microphone during
+  a corporate workshop, colleagues watching
+
+learning-coaching.jpg  (4:3)
+  A small group coaching session, four Thai managers seated on sofas in a relaxed circle
+  with a coach listening attentively, cozy meeting lounge
+
+learning-consulting.jpg  (4:3)
+  A Thai business consultant in a suit discussing a plan with a client across a desk
+  with a laptop and documents, bright modern office
+
+learning-online.jpg  (4:3)
+  A Thai trainer teaching an online live class in front of a laptop and monitor with
+  a microphone, video call grid on screen, home studio setup
+
+video-poster.jpg  (16:9 ประมาณ 1280x720)
+  A Thai trainer speaking to camera in a clean studio with green plant accents,
+  cinematic lighting, empty space on the right side
+
+------------------------------------------------------
+แกลเลอรี "บรรยากาศการเรียนรู้" (gallery-1.jpg ถึง gallery-8.jpg)
+  gallery-1  (4:3)  Large group of Thai training participants posing together holding certificates in a hotel ballroom
+  gallery-2  (4:3)  Thai employees brainstorming around a table with sticky notes and markers
+  gallery-3  (4:3)  A team of Thai professionals smiling next to their flipchart after a group presentation
+  gallery-4  (4:3)  A Thai woman presenting ideas at a flipchart with a microphone
+  gallery-5  (3:2)  Big cheerful group photo of Thai workshop participants giving thumbs up
+  gallery-6  (4:3)  Interactive session in a large training room, participants standing and discussing
+  gallery-7  (4:3)  Thai participants receiving certificates at the end of a leadership course
+  gallery-8  (4:3)  Small group of Thai managers exchanging ideas during a workshop
+
+ข้อควรระวัง: ถ้าใช้ภาพ AI อย่าเขียนว่าเป็น "ภาพการอบรมจริง" หรือ "ภาพลูกค้าจริง"

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="ภาพประกอบผู้เข้าอบรมถือไมโครโฟนนำเสนอแนวคิดหน้าฟลิปชาร์ต">
+<title>ภาพประกอบผู้เข้าอบรมถือไมโครโฟนนำเสนอแนวคิดหน้าฟลิปชาร์ต</title>
+
+  
+  <rect width="640" height="480" fill="#F3F7F2"/>
+  <rect x="0" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="28" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="56" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="84" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="112" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="140" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="168" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="196" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="224" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="252" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="280" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="308" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="336" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="364" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="392" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="420" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="448" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="476" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="504" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="532" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="560" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="588" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/><rect x="616" y="0" width="14" height="400" fill="#DCF1DE" opacity=".7"/>
+  <rect x="0" y="400" width="640" height="80" fill="#D9E6DA"/>
+  <rect x="0" y="394" width="640" height="6" fill="#C9E7C0"/>
+  <g>
+  <g stroke="#9AA59E" stroke-width="5" stroke-linecap="round">
+    <line x1="362.4" y1="286" x2="340.8" y2="408"/>
+    <line x1="477.6" y1="286" x2="499.2" y2="408"/>
+    <line x1="420" y1="286" x2="420" y2="386"/></g>
+  <rect x="324" y="52" width="192" height="242" rx="4" fill="#C9D1CB"/>
+  <rect x="330" y="60" width="180" height="230" fill="#FFFFFF"/>
+  <rect x="320" y="46" width="200" height="12" rx="4" fill="#6B7770"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M351.6 92.2 h90" stroke="#1F8A3E" stroke-width="4"/>
+  <circle cx="384" cy="156.6" r="21.599999999999998" stroke="#2FA84F" stroke-width="3"/>
+  <path d="M423.6 142.8 h54 M423.6 165.8 h39.6" stroke="#2F5D8A" stroke-width="3"/>
+  <path d="M355.2 225.6 l25.200000000000003 -23 l25.200000000000003 13.799999999999999 l36 -36.800000000000004 l36 -18.400000000000002" stroke="#D9534F" stroke-width="3"/>
+  <path d="M351.6 257.79999999999995 h108" stroke="#D4E4CE" stroke-width="3"/></g></g>
+  <g transform="translate(200 450) scale(1.25)">
+    <rect x="-24" y="-198" width="48" height="54" rx="20" fill="#2A211C"/>
+    <rect x="-18" y="-82" width="15" height="80" rx="7" fill="#1B2A20"/><rect x="3" y="-82" width="15" height="80" rx="7" fill="#1B2A20"/>
+    <ellipse cx="-12" cy="-2" rx="11" ry="5" fill="#1B2A20"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#1B2A20"/>
+    <rect x="-37" y="-146" width="13" height="66" rx="6.5" fill="#2F5D8A"/><circle cx="-30.5" cy="-78" r="7" fill="#F2C9A5"/><rect x="24" y="-146" width="13" height="46" rx="6.5" fill="#2F5D8A"/>
+    <rect x="-6" y="-166" width="12" height="20" fill="#F2C9A5"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#2F5D8A"/>
+    <path d="M-9 -152 L0 -136 L9 -152 Z" fill="#9FD3F0"/>
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#F2C9A5"/>
+    <g transform="translate(30.5 -104) rotate(163)"><rect x="-6.5" y="0" width="13" height="48" rx="6.5" fill="#2F5D8A"/></g>
+    <g transform="translate(14 -148) rotate(-20)"><rect x="-3.5" y="-18" width="7" height="20" rx="3" fill="#1B2A20"/><circle cx="0" cy="-19" r="5" fill="#4A554E"/></g><circle cx="14" cy="-148" r="7" fill="#F2C9A5"/>
+  </g>
+
+</svg>

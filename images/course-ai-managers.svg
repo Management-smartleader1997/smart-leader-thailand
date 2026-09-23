@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="ภาพประกอบหัวหน้างานใช้ AI ช่วยวิเคราะห์ข้อมูลบนแล็ปท็อป">
+<title>ภาพประกอบหัวหน้างานใช้ AI ช่วยวิเคราะห์ข้อมูลบนแล็ปท็อป</title>
+
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#2FA84F" opacity=".16"/></pattern></defs>
+    <rect width="640" height="360" fill="#EEF8EF"/><circle cx="96" cy="54" r="180" fill="#DCF1DE"/><circle cx="608" cy="324" r="125.99999999999999" fill="#DCF1DE" opacity=".7"/><rect width="640" height="360" fill="url(#dots)"/>
+  <g><rect x="400" y="76" width="190" height="150" rx="14" fill="#0E4D26" opacity=".08"/><rect x="400" y="70" width="190" height="150" rx="14" fill="#FFFFFF"/><rect x="420" y="92" width="90" height="7" rx="3.5" fill="#D4E4CE"/><rect x="420" y="106" width="60" height="7" rx="3.5" fill="#D4E4CE"/><rect x="424" y="170" width="18" height="30" rx="4" fill="#8DD35A"/><rect x="454" y="150" width="18" height="50" rx="4" fill="#4CBB4A"/><rect x="484" y="158" width="18" height="42" rx="4" fill="#2FA84F"/><rect x="514" y="130" width="18" height="70" rx="4" fill="#1F8A3E"/><rect x="544" y="112" width="18" height="88" rx="4" fill="#0E4D26"/></g>
+  <g><path d="M328 82 L336 98 L312 82 Z" fill="#FFFFFF"/><rect x="196" y="34" width="150" height="50" rx="16" fill="#FFFFFF"/><rect x="214" y="48" width="110" height="7" rx="3.5" fill="#D4E4CE"/><rect x="214" y="61" width="70" height="7" rx="3.5" fill="#D4E4CE"/></g>
+  <g><path d="M270 150 L262 166 L286 150 Z" fill="#2FA84F"/><rect x="252" y="108" width="110" height="44" rx="16" fill="#2FA84F"/><rect x="268" y="122" width="76" height="7" rx="3.5" fill="#FFFFFF"/><rect x="268" y="135" width="48" height="7" rx="3.5" fill="#FFFFFF"/></g>
+  <g><rect x="67.5" y="108" width="6" height="12" rx="3" fill="#0E4D26"/><rect x="67.5" y="166" width="6" height="12" rx="3" fill="#0E4D26"/>
+      <rect x="48" y="127.5" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="106" y="127.5" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="80" y="108" width="6" height="12" rx="3" fill="#0E4D26"/><rect x="80" y="166" width="6" height="12" rx="3" fill="#0E4D26"/>
+      <rect x="48" y="140" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="106" y="140" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="92.5" y="108" width="6" height="12" rx="3" fill="#0E4D26"/><rect x="92.5" y="166" width="6" height="12" rx="3" fill="#0E4D26"/>
+      <rect x="48" y="152.5" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="106" y="152.5" width="12" height="6" rx="3" fill="#0E4D26"/><rect x="58" y="118" width="50" height="50" rx="10" fill="#0E4D26"/>
+    <text x="83" y="151" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="21" fill="#8DD35A">AI</text></g>
+  <g transform="translate(250 370) scale(1)">
+    
+    
+    <g transform="translate(-24 -142) rotate(55)"><rect x="-6.5" y="0" width="13" height="64" rx="6.5" fill="#1F8A3E"/><circle cx="0" cy="66" r="7" fill="#C68B62"/></g><g transform="translate(24 -142) rotate(-55)"><rect x="-6.5" y="0" width="13" height="64" rx="6.5" fill="#1F8A3E"/><circle cx="0" cy="66" r="7" fill="#C68B62"/></g>
+    <rect x="-6" y="-166" width="12" height="20" fill="#C68B62"/>
+    <rect x="-29" y="-152" width="58" height="80" rx="24" fill="#1F8A3E"/>
+    <path d="M-9 -152 L0 -136 L9 -152 Z" fill="#FFFFFF"/>
+    <circle cx="0" cy="-184" r="21" fill="#2A211C"/><circle cx="0" cy="-177" r="19" fill="#C68B62"/>
+    
+  </g>
+  <rect x="40" y="300" width="560" height="60" fill="#0E4D26"/><rect x="40" y="300" width="560" height="8" fill="#1F8A3E"/>
+  <g><rect x="170" y="206" width="150" height="93" rx="10" fill="#0A2E18"/>
+    <rect x="178" y="214" width="134" height="77" rx="5" fill="#FFFFFF"/><rect x="194" y="228" width="70" height="7" rx="3.5" fill="#C9E7C0"/><rect x="194" y="242" width="100" height="7" rx="3.5" fill="#C9E7C0"/><rect x="194" y="256" width="56" height="7" rx="3.5" fill="#C9E7C0"/><path d="M292 226 Q293.44 232.56 300 234 Q293.44 235.44 292 242 Q290.56 235.44 284 234 Q290.56 232.56 292 226 Z" fill="#2FA84F"/>
+    <path d="M158 299 H332 L323 311 H167 Z" fill="#0E4D26"/></g>
+  <rect x="470" y="262" width="34" height="38" rx="6" fill="#FFFFFF"/><path d="M504 272 q14 0 14 12 q0 12 -14 12" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+  <path d="M360 61 Q361.62 68.38 369 70 Q361.62 71.62 360 79 Q358.38 71.62 351 70 Q358.38 68.38 360 61 Z" fill="#8DD35A"/>
+
+</svg>
