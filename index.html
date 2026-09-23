@@ -17,8 +17,10 @@
   <meta property="og:title" content="Smart Leader Thailand | Leadership, AI &amp; Future Skills">
   <meta property="og:description" content="พัฒนาผู้นำ หัวหน้างาน ผู้จัดการ และองค์กร ผ่าน Corporate Training, Leadership Development, AI Training, Coaching และ Online Courses">
   <meta property="og:locale" content="th_TH">
-  <!-- TODO: เปลี่ยนเป็นภาพ OG จริง (แนะนำ 1200x630px) และใช้ URL เต็มเมื่อมีโดเมน -->
-  <meta property="og:image" content="assets/slt-logo.png">
+  <!-- TODO: เมื่อมีโดเมน ให้เปลี่ยนเป็น URL เต็ม เช่น https://www.your-domain.com/assets/og-image.png (Facebook/LINE ต้องใช้ URL เต็ม) -->
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" type="image/png" href="assets/slt-logo.png">
@@ -135,10 +137,10 @@
         </div>
 
         <div class="hero-visual" data-reveal data-delay="150">
-          <!-- TODO: เปลี่ยน Placeholder เป็นภาพจริง เช่น <img src="images/hero-training.jpg" alt="บรรยากาศการอบรม Smart Leader Thailand"> -->
-          <figure class="hero-media placeholder-media">
-            <svg class="icon"><use href="#i-image"/></svg>
-            <figcaption>พื้นที่ภาพผู้บริหาร / ทีมงาน / บรรยากาศการอบรม<br><small>images/hero-training.jpg</small></figcaption>
+          <!-- ภาพประกอบ (SVG) อ้างอิงองค์ประกอบจากภาพการอบรมจริงของ SLT
+               ภาพถ่ายจริงสำรองอยู่ที่ images/photos/hero-training.jpg (สลับกลับได้โดยเปลี่ยน src) -->
+          <figure class="hero-media">
+            <img src="images/illustrations/hero-workshop.svg" alt="ภาพประกอบวิทยากรถือไมโครโฟนนำกิจกรรมกลุ่มในห้องอบรม" width="560" height="616" fetchpriority="high">
           </figure>
 
           <div class="float-card float-card-a">
@@ -230,13 +232,13 @@
         <!--
           หมายเหตุ: ระยะเวลา จำนวนบทเรียน และราคา เป็นข้อมูลตัวอย่าง
           TODO: แก้ไขเป็นข้อมูลหลักสูตรจริงก่อนเปิดใช้งาน
-          ภาพคอร์ส: แทนที่ <div class="course-thumb ..."> ด้วย <img src="images/course-xx.jpg" alt="..."> ได้
+          ภาพคอร์ส: ภาพประกอบ SVG ใน images/ — เปลี่ยนเป็นภาพปกคอร์สจริงได้ (แนะนำ 16:9 เช่น 1280x720)
         -->
         <div class="course-grid" id="courseGrid">
 
           <article class="course-card" data-course-id="modern-leadership-ai" data-category="leadership" data-reveal>
             <div class="course-thumb thumb-1">
-              <svg class="icon"><use href="#i-flag"/></svg>
+              <img src="images/course-leadership-ai.svg" alt="ภาพประกอบผู้นำยืนบนบันไดความสำเร็จพร้อมเครือข่าย AI" width="640" height="360" loading="lazy">
               <span class="badge">Leadership</span>
             </div>
             <div class="course-body">
@@ -257,7 +259,7 @@
 
           <article class="course-card" data-course-id="ai-for-managers" data-category="ai" data-reveal data-delay="60">
             <div class="course-thumb thumb-2">
-              <svg class="icon"><use href="#i-ai"/></svg>
+              <img src="images/course-ai-managers.svg" alt="ภาพประกอบหัวหน้างานใช้ AI ช่วยวิเคราะห์ข้อมูลบนแล็ปท็อป" width="640" height="360" loading="lazy">
               <span class="badge">AI for Work</span>
             </div>
             <div class="course-body">
@@ -278,7 +280,7 @@
 
           <article class="course-card" data-course-id="genai-productivity" data-category="ai" data-reveal data-delay="120">
             <div class="course-thumb thumb-3">
-              <svg class="icon"><use href="#i-zap"/></svg>
+              <img src="images/course-genai-productivity.svg" alt="ภาพประกอบการใช้ Generative AI บนแล็ปท็อปเพื่อทำงานเร็วขึ้น" width="640" height="360" loading="lazy">
               <span class="badge">AI for Work</span>
             </div>
             <div class="course-body">
@@ -299,7 +301,7 @@
 
           <article class="course-card" data-course-id="supervisor-skills" data-category="management" data-reveal>
             <div class="course-thumb thumb-4">
-              <svg class="icon"><use href="#i-users"/></svg>
+              <img src="images/course-supervisor.svg" alt="ภาพประกอบหัวหน้างานสื่อสารเป้าหมายกับสมาชิกในทีม" width="640" height="360" loading="lazy">
               <span class="badge">Supervisor Skills</span>
             </div>
             <div class="course-body">
@@ -320,7 +322,7 @@
 
           <article class="course-card" data-course-id="coaching-skills" data-category="leadership" data-reveal data-delay="60">
             <div class="course-thumb thumb-5">
-              <svg class="icon"><use href="#i-chat"/></svg>
+              <img src="images/course-coaching.svg" alt="ภาพประกอบการโค้ชแบบตัวต่อตัวระหว่างผู้นำและสมาชิกทีม" width="640" height="360" loading="lazy">
               <span class="badge">Coaching</span>
             </div>
             <div class="course-body">
@@ -341,7 +343,7 @@
 
           <article class="course-card" data-course-id="future-skills" data-category="ai" data-reveal data-delay="120">
             <div class="course-thumb thumb-6">
-              <svg class="icon"><use href="#i-rocket"/></svg>
+              <img src="images/course-future-skills.svg" alt="ภาพประกอบเส้นทางการเติบโตด้วยทักษะแห่งอนาคต" width="640" height="360" loading="lazy">
               <span class="badge">Future Skills</span>
             </div>
             <div class="course-body">
@@ -366,6 +368,40 @@
 
         <div class="center-action" data-reveal>
           <a href="#contact" class="btn btn-outline">สอบถามคอร์สเพิ่มเติม <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROMO VIDEO ===================== -->
+    <section class="section video-section" id="preview">
+      <div class="container video-layout">
+        <div class="video-copy" data-reveal>
+          <p class="kicker">SLT Video</p>
+          <h2>รับมือทุกอุปสรรคและ<span class="nowrap">ความท้าทาย</span><span class="nowrap">สู่ความสำเร็จ</span></h2>
+          <p>ฟังแนวคิดจากวิทยากร Smart Leader Thailand และดูตัวอย่างวิธีสอนก่อนตัดสินใจสมัครเรียน</p>
+          <ul class="check-list light">
+            <li><svg class="icon"><use href="#i-check"/></svg> เนื้อหาเข้าใจง่าย ใช้กับงานได้จริง</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> มีทั้งอบรมในห้อง และเรียนออนไลน์สอนสด</li>
+          </ul>
+          <div class="video-actions">
+            <a href="#courses" class="btn btn-primary btn-lg">เลือกคอร์สและสมัครเรียน <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="https://www.youtube.com/@smartleaderthailand9121" class="btn btn-outline btn-lg" target="_blank" rel="noopener">ดูวิดีโออื่นบน YouTube</a>
+          </div>
+        </div>
+
+        <!-- วิดีโอโปรโมทจากช่อง YouTube ของ SLT (youtube.com/watch?v=E9vL9Hx9cyQ) ความยาว 2 นาที 1280x720
+             ภาพปก images/video-poster.jpg ดึงจากคลิปวินาทีที่ 12
+             ถ้าไม่พบไฟล์วิดีโอ หน้าเว็บจะแสดง Placeholder แทนอัตโนมัติ -->
+        <div class="video-frame" data-reveal data-delay="120">
+          <video id="previewVideo" controls preload="metadata" playsinline poster="images/video-poster.jpg" aria-label="วิดีโอ: รับมือทุกอุปสรรคและความท้าทายสู่ความสำเร็จ โดย Smart Leader Thailand">
+            <source src="videos/course-preview.mp4" type="video/mp4">
+            เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+          </video>
+          <div class="video-placeholder" id="videoPlaceholder" hidden>
+            <span class="video-play"><svg class="icon"><use href="#i-play"/></svg></span>
+            <strong>วิดีโอตัวอย่างบทเรียนจะเปิดให้ชมเร็วๆ นี้</strong>
+            <small>videos/course-preview.mp4</small>
+          </div>
         </div>
       </div>
     </section>
@@ -482,21 +518,25 @@
 
         <div class="exp-grid">
           <div class="exp-card" data-reveal>
+            <img class="exp-photo" src="images/illustrations/learning-training.svg" alt="ภาพประกอบผู้เข้าอบรมถือไมโครโฟนนำเสนองานหน้าฟลิปชาร์ต" width="640" height="480" loading="lazy">
             <span class="exp-icon"><svg class="icon"><use href="#i-present"/></svg></span>
             <h3>Training</h3>
             <p>Classroom Training และ Workshop ที่เน้นกิจกรรมและการลงมือทำ</p>
           </div>
           <div class="exp-card" data-reveal data-delay="60">
+            <img class="exp-photo" src="images/illustrations/learning-coaching.svg" alt="ภาพประกอบการโค้ชแบบกลุ่ม ผู้เข้าร่วมนั่งโซฟาพูดคุยกับโค้ช" width="640" height="480" loading="lazy">
             <span class="exp-icon"><svg class="icon"><use href="#i-chat"/></svg></span>
             <h3>Coaching</h3>
             <p>One-on-One และ Group Coaching เพื่อพัฒนาผู้นำอย่างต่อเนื่อง</p>
           </div>
           <div class="exp-card" data-reveal data-delay="120">
+            <img class="exp-photo" src="images/illustrations/learning-consulting.svg" alt="ภาพประกอบที่ปรึกษานั่งโต๊ะพร้อมให้คำปรึกษาด้านการพัฒนาคน" width="640" height="480" loading="lazy">
             <span class="exp-icon"><svg class="icon"><use href="#i-briefcase"/></svg></span>
             <h3>Consulting</h3>
             <p>ให้คำปรึกษาด้านการพัฒนาคนและออกแบบ Learning Solution</p>
           </div>
           <div class="exp-card" data-reveal data-delay="180">
+            <img class="exp-photo" src="images/illustrations/learning-online.svg" alt="ภาพประกอบวิทยากรสอนออนไลน์สดผ่านแล็ปท็อปและจอคอมพิวเตอร์" width="640" height="480" loading="lazy">
             <span class="exp-icon"><svg class="icon"><use href="#i-play"/></svg></span>
             <h3>Online Learning</h3>
             <p>คอร์สออนไลน์เรียนได้ทุกที่ ทุกเวลา ในราคาที่เข้าถึงได้</p>
@@ -536,6 +576,31 @@
             <span class="stat-value placeholder-value">—</span>
             <span class="stat-label">ประสบการณ์ด้าน Learning &amp; Development</span>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LEARNING GALLERY ===================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <p class="kicker">Learning Atmosphere</p>
+          <h2>บรรยากาศการเรียนรู้</h2>
+          <p>เรียนรู้ผ่านกิจกรรม การทำงานเป็นทีม และการลงมือทำ ในทุกหลักสูตรของ Smart Leader Thailand</p>
+        </header>
+
+        <!-- ภาพประกอบ (SVG) ใน images/illustrations/ — ภาพถ่ายจริงสำรองอยู่ใน images/photos/gallery-*.jpg
+             ถ้าเปลี่ยนเป็นภาพอื่น ให้แก้ alt ให้ตรงกับภาพใหม่ และอย่าอ้างว่าภาพที่ไม่ใช่ภาพจริงเป็นภาพการอบรมจริง -->
+
+        <div class="gallery-grid" data-reveal>
+          <figure class="g-item g-large"><img src="images/illustrations/gallery-1.svg" alt="ภาพประกอบผู้เข้าอบรมถ่ายภาพหมู่พร้อมใบประกาศนียบัตร" width="640" height="480" loading="lazy"></figure>
+          <figure class="g-item"><img src="images/illustrations/gallery-2.svg" alt="ภาพประกอบผู้เข้าอบรมระดมความคิดรอบโต๊ะด้วยกระดาษโน้ต" width="640" height="480" loading="lazy"></figure>
+          <figure class="g-item"><img src="images/illustrations/gallery-3.svg" alt="ภาพประกอบทีมผู้เข้าอบรมยืนถ่ายภาพข้างฟลิปชาร์ตหลังนำเสนองาน" width="640" height="480" loading="lazy"></figure>
+          <figure class="g-item"><img src="images/illustrations/gallery-4.svg" alt="ภาพประกอบผู้เข้าอบรมถือไมโครโฟนนำเสนอแนวคิดหน้าฟลิปชาร์ต" width="640" height="480" loading="lazy"></figure>
+          <figure class="g-item"><img src="images/illustrations/gallery-6.svg" alt="ภาพประกอบห้องอบรมขนาดใหญ่ที่ผู้เข้าอบรมนั่งเรียนเป็นแถว" width="640" height="480" loading="lazy"></figure>
+          <figure class="g-item g-wide"><img src="images/illustrations/gallery-5.svg" alt="ภาพประกอบผู้เข้าอบรมกลุ่มใหญ่ถ่ายภาพหมู่อย่างสนุกสนาน" width="720" height="480" loading="lazy"></figure>
+          <figure class="g-item"><img src="images/illustrations/gallery-7.svg" alt="ภาพประกอบการมอบใบประกาศนียบัตรให้ผู้เข้าอบรม" width="640" height="480" loading="lazy"></figure>
+          <figure class="g-item"><img src="images/illustrations/gallery-8.svg" alt="ภาพประกอบผู้เข้าอบรมกลุ่มเล็กแลกเปลี่ยนความคิดเห็นระหว่างเวิร์กช็อป" width="640" height="480" loading="lazy"></figure>
         </div>
       </div>
     </section>
@@ -615,10 +680,10 @@
           </div>
         </header>
 
-        <!-- TODO: เชื่อมลิงก์ "อ่านต่อ" ไปยังหน้าบทความจริงเมื่อพร้อม และเปลี่ยนภาพเป็น images/article-xx.jpg -->
+        <!-- TODO: เชื่อมลิงก์ "อ่านต่อ" ไปยังหน้าบทความจริงเมื่อพร้อม ภาพเป็นภาพประกอบ SVG ใน images/ เปลี่ยนเป็นภาพจริงได้ -->
         <div class="article-grid">
           <article class="article-card" data-reveal>
-            <div class="article-thumb thumb-1"><svg class="icon"><use href="#i-flag"/></svg></div>
+            <div class="article-thumb thumb-1"><img src="images/article-leader-ai-skills.svg" alt="ภาพประกอบรายการทักษะสำคัญของผู้นำยุค AI" width="640" height="400" loading="lazy"></div>
             <div class="article-body">
               <span class="article-tag">Leadership</span>
               <h3>5 ทักษะที่ผู้นำยุค AI ควรมี</h3>
@@ -627,7 +692,7 @@
             </div>
           </article>
           <article class="article-card" data-reveal data-delay="60">
-            <div class="article-thumb thumb-2"><svg class="icon"><use href="#i-ai"/></svg></div>
+            <div class="article-thumb thumb-2"><img src="images/article-ai-productivity.svg" alt="ภาพประกอบหัวหน้างานใช้ AI แล้วประสิทธิภาพงานเพิ่มขึ้น" width="640" height="400" loading="lazy"></div>
             <div class="article-body">
               <span class="article-tag">AI</span>
               <h3>หัวหน้างานจะใช้ AI เพิ่ม Productivity ได้อย่างไร</h3>
@@ -636,7 +701,7 @@
             </div>
           </article>
           <article class="article-card" data-reveal data-delay="120">
-            <div class="article-thumb thumb-4"><svg class="icon"><use href="#i-layers"/></svg></div>
+            <div class="article-thumb thumb-4"><img src="images/article-leadership-skills.svg" alt="ภาพประกอบโครงสร้างทีมและผู้นำในองค์กร" width="640" height="400" loading="lazy"></div>
             <div class="article-body">
               <span class="article-tag">Management</span>
               <h3>Leadership Skills ที่องค์กรยุคใหม่ต้องการ</h3>
@@ -645,7 +710,7 @@
             </div>
           </article>
           <article class="article-card" data-reveal data-delay="180">
-            <div class="article-thumb thumb-6"><svg class="icon"><use href="#i-rocket"/></svg></div>
+            <div class="article-thumb thumb-6"><img src="images/article-future-skills.svg" alt="ภาพประกอบหลอดไฟและเฟืองสื่อถึงทักษะแห่งอนาคต" width="640" height="400" loading="lazy"></div>
             <div class="article-body">
               <span class="article-tag">Future Skills</span>
               <h3>Future Skills: ทักษะที่ทำให้คนทำงานไม่ตกยุค</h3>

@@ -29,12 +29,12 @@ const PAYMENT_CONFIG = {
    ต้องตรงกับ data-course-id ใน index.html
    หมายเหตุ: ระยะเวลา จำนวนบทเรียน และราคา เป็นข้อมูลตัวอย่าง — TODO: แก้ไขเป็นข้อมูลจริง */
 const COURSES = {
-  'modern-leadership-ai': { title: 'ผู้นำยุคใหม่ในโลก AI', badge: 'Leadership', duration: '4 ชั่วโมง', lessons: 12, level: 'Intermediate', price: 499, thumb: 'thumb-1' },
-  'ai-for-managers':      { title: 'AI สำหรับหัวหน้างานและผู้จัดการ', badge: 'AI for Work', duration: '3 ชั่วโมง', lessons: 10, level: 'Beginner', price: 499, thumb: 'thumb-2' },
-  'genai-productivity':   { title: 'Generative AI เพื่อเพิ่ม Productivity', badge: 'AI for Work', duration: '5 ชั่วโมง', lessons: 15, level: 'Beginner', price: 499, thumb: 'thumb-3' },
-  'supervisor-skills':    { title: 'ทักษะหัวหน้างานยุคใหม่', badge: 'Supervisor Skills', duration: '4 ชั่วโมง', lessons: 12, level: 'Beginner', price: 499, thumb: 'thumb-4' },
-  'coaching-skills':      { title: 'Coaching Skills for Leader', badge: 'Coaching', duration: '3 ชั่วโมง', lessons: 9, level: 'Intermediate', price: 499, thumb: 'thumb-5' },
-  'future-skills':        { title: 'Future Skills for Modern Workplace', badge: 'Future Skills', duration: '2 ชั่วโมง', lessons: 8, level: 'Beginner', price: 499, thumb: 'thumb-6' },
+  'modern-leadership-ai': { title: 'ผู้นำยุคใหม่ในโลก AI', badge: 'Leadership', duration: '4 ชั่วโมง', lessons: 12, level: 'Intermediate', price: 499, thumb: 'thumb-1', img: 'images/course-leadership-ai.svg' },
+  'ai-for-managers':      { title: 'AI สำหรับหัวหน้างานและผู้จัดการ', badge: 'AI for Work', duration: '3 ชั่วโมง', lessons: 10, level: 'Beginner', price: 499, thumb: 'thumb-2', img: 'images/course-ai-managers.svg' },
+  'genai-productivity':   { title: 'Generative AI เพื่อเพิ่ม Productivity', badge: 'AI for Work', duration: '5 ชั่วโมง', lessons: 15, level: 'Beginner', price: 499, thumb: 'thumb-3', img: 'images/course-genai-productivity.svg' },
+  'supervisor-skills':    { title: 'ทักษะหัวหน้างานยุคใหม่', badge: 'Supervisor Skills', duration: '4 ชั่วโมง', lessons: 12, level: 'Beginner', price: 499, thumb: 'thumb-4', img: 'images/course-supervisor.svg' },
+  'coaching-skills':      { title: 'Coaching Skills for Leader', badge: 'Coaching', duration: '3 ชั่วโมง', lessons: 9, level: 'Intermediate', price: 499, thumb: 'thumb-5', img: 'images/course-coaching.svg' },
+  'future-skills':        { title: 'Future Skills for Modern Workplace', badge: 'Future Skills', duration: '2 ชั่วโมง', lessons: 8, level: 'Beginner', price: 499, thumb: 'thumb-6', img: 'images/course-future-skills.svg' },
 };
 
 const MAX_SLIP_BYTES = 5 * 1024 * 1024;
@@ -124,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderCourse() {
     course = COURSES[courseSelect.value];
     $('#summaryThumb').className = `summary-thumb ${course.thumb}`;
+    $('#summaryThumb').innerHTML = `<img src="${course.img}" alt="">`;
     $('#summaryBadge').textContent = course.badge;
     $('#summaryTitleText').textContent = course.title;
     $('#summaryMeta').innerHTML = `

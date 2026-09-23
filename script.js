@@ -153,6 +153,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (outside) closeModal();
   });
 
+  /* ---------- Course preview video: แสดง Placeholder ถ้ายังไม่มีไฟล์วิดีโอ ---------- */
+  const video = document.getElementById('previewVideo');
+  const videoPlaceholder = document.getElementById('videoPlaceholder');
+  const showVideoPlaceholder = () => {
+    video.hidden = true;
+    videoPlaceholder.hidden = false;
+  };
+
+  video.querySelectorAll('source').forEach((src) => src.addEventListener('error', showVideoPlaceholder));
+  video.addEventListener('error', showVideoPlaceholder);
+  // กรณี error เกิดก่อนที่ script จะผูก event
+  if (video.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) showVideoPlaceholder();
+
   /* ---------- Footer year ---------- */
   document.getElementById('year').textContent = new Date().getFullYear();
 });
