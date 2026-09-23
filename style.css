@@ -1093,3 +1093,237 @@ button { font: inherit; cursor: pointer; }
   .step-actions > span:empty { display: none; }
   .step-actions .btn { width: 100%; white-space: normal; }
 }
+
+/* =========================================================
+   23. Premium Theme — เขียวมรกตเข้ม + ทอง + ขาวงาช้าง
+   ชั้นนี้เปลี่ยนเฉพาะสี ฟอนต์ เส้นขอบ และเงา (ไม่แตะเลย์เอาต์/Responsive)
+   ========================================================= */
+:root {
+  --gold-200: #F4E7C5;
+  --gold-300: #EBD49A;
+  --gold-400: #D9B66A;
+  --gold-500: #C29B4F;
+  --gold-600: #9E7A35;
+  --emerald-950: #06130C;
+  --emerald-900: #0A1F14;
+  --emerald-850: #0D2A1A;
+  --ivory: #FAF7F0;
+  --ivory-2: #F3EEE2;
+  --line-warm: #E9E2D2;
+  --font-display: "Noto Serif Thai", "Prompt", Georgia, serif;
+  --grad-gold: linear-gradient(135deg, #F1DDA6 0%, #D9B66A 45%, #B88D40 100%);
+  --grad-night: linear-gradient(160deg, #06130C 0%, #0B2416 55%, #0F301D 100%);
+  --shadow-lux: 0 30px 70px -30px rgba(6, 19, 12, .45);
+}
+
+::selection { background: var(--gold-300); color: var(--emerald-950); }
+body { background: #FFFEFB; }
+
+/* ---------- Typography ---------- */
+.hero h1, .section-head h2, .corporate h2, .cta-box h2, .video-copy h2, .checkout-head h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+.hero h1 { line-height: 1.32; }
+
+.kicker { color: var(--gold-600); letter-spacing: .22em; font-size: 12px; display: inline-flex; align-items: center; gap: 12px; }
+.kicker::before { content: ""; width: 28px; height: 1px; background: currentColor; opacity: .7; }
+.section-head.center .kicker::after { content: ""; width: 28px; height: 1px; background: currentColor; opacity: .7; }
+.kicker.on-dark { color: var(--gold-400); }
+
+.text-gradient {
+  background: var(--grad-gold);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.text-lime { color: var(--gold-300); }
+
+/* ---------- Buttons ---------- */
+.btn { letter-spacing: .01em; }
+.btn-primary, .btn-lime, .btn-white {
+  background: var(--grad-gold);
+  color: var(--emerald-950);
+  box-shadow: 0 10px 26px -12px rgba(194, 155, 79, .75), inset 0 1px 0 rgba(255, 255, 255, .45);
+}
+.btn-primary:hover, .btn-lime:hover, .btn-white:hover {
+  background: linear-gradient(135deg, #F6E6BA 0%, #E2C27C 45%, #C29B4F 100%);
+  color: var(--emerald-950);
+  box-shadow: 0 16px 34px -12px rgba(194, 155, 79, .85), inset 0 1px 0 rgba(255, 255, 255, .5);
+}
+.btn-outline { border-color: var(--emerald-900); color: var(--emerald-900); }
+.btn-outline:hover { background: var(--emerald-900); color: var(--gold-300); }
+.btn-soft { background: var(--ivory-2); color: var(--emerald-900); }
+.btn-soft:hover { background: var(--emerald-900); color: var(--gold-300); }
+.btn-ghost-light { border-color: rgba(235, 212, 154, .55); color: var(--gold-200); }
+.btn-ghost-light:hover { background: rgba(235, 212, 154, .1); border-color: var(--gold-300); }
+
+/* ---------- Header (โทนเข้มทุกหน้า) ---------- */
+.site-header, .site-header.is-scrolled {
+  background: rgba(6, 19, 12, .82);
+  border-bottom: 1px solid rgba(194, 155, 79, .18);
+}
+.site-header.is-scrolled { background: rgba(6, 19, 12, .94); box-shadow: 0 10px 30px -18px rgba(0, 0, 0, .6); }
+.site-header .brand-text strong { color: #FFFFFF; }
+.site-header .brand-text small { color: var(--gold-400); }
+.nav-link { color: rgba(255, 255, 255, .78); }
+.nav-link:hover, .nav-link.is-active { color: var(--gold-300); }
+.nav-link::after { background: var(--gold-400); }
+.nav-toggle { background: transparent; border-color: rgba(194, 155, 79, .4); }
+.nav-toggle span { background: var(--gold-200); }
+.back-link { color: var(--gold-300); }
+.back-link:hover { color: var(--gold-200); }
+
+@media (max-width: 1180px) {
+  .primary-nav { background: var(--emerald-950); border-top-color: rgba(194, 155, 79, .18); }
+  .nav-link { border-bottom-color: rgba(255, 255, 255, .07); }
+}
+
+/* ---------- Hero ---------- */
+.hero-bg {
+  background:
+    radial-gradient(900px 520px at 82% 18%, rgba(47, 168, 79, .22), transparent 60%),
+    radial-gradient(700px 480px at 6% 96%, rgba(194, 155, 79, .16), transparent 60%),
+    var(--grad-night);
+}
+.blob { display: none; }
+.grid-lines {
+  background-image:
+    linear-gradient(rgba(194, 155, 79, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(194, 155, 79, .07) 1px, transparent 1px);
+}
+.hero h1 { color: #FFFFFF; }
+.hero .lead { color: rgba(255, 255, 255, .72); }
+.eyebrow { background: rgba(194, 155, 79, .08); border-color: rgba(194, 155, 79, .45); color: var(--gold-300); box-shadow: none; }
+.eyebrow .dot { background: var(--gold-400); box-shadow: 0 0 0 4px rgba(194, 155, 79, .2); }
+.hero .btn-outline { border-color: rgba(255, 255, 255, .45); color: #FFFFFF; }
+.hero .btn-outline:hover { background: #FFFFFF; color: var(--emerald-950); border-color: #FFFFFF; }
+.hero-note { color: rgba(255, 255, 255, .7); }
+.hero-note .icon, .hero-note strong { color: var(--gold-300); }
+.hero-tags li { background: rgba(255, 255, 255, .04); border-color: rgba(255, 255, 255, .14); color: rgba(255, 255, 255, .75); }
+.hero-visual::before {
+  background: none;
+  border: 1.5px solid rgba(194, 155, 79, .55);
+  opacity: 1;
+}
+.hero-media { box-shadow: 0 40px 90px -30px rgba(0, 0, 0, .7); }
+.float-card { box-shadow: 0 20px 40px -18px rgba(0, 0, 0, .55); border: 1px solid rgba(194, 155, 79, .25); }
+.float-icon { background: var(--ivory-2); color: var(--gold-600); }
+.float-icon.dark { background: var(--emerald-900); color: var(--gold-300); }
+
+/* ---------- Sections & cards ---------- */
+.section-alt { background: var(--ivory); }
+.section-head p:not(.kicker) { color: #6B706A; }
+
+.category-card, .course-card, .why-card, .exp-card, .article-card, .testi-card {
+  border-color: var(--line-warm);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset, 0 12px 30px -24px rgba(6, 19, 12, .25);
+}
+.category-card:hover, .course-card:hover, .why-card:hover, .exp-card:hover, .article-card:hover {
+  border-color: var(--gold-400);
+  box-shadow: var(--shadow-lux);
+}
+.category-card::before { background: linear-gradient(160deg, var(--ivory), transparent 65%); }
+.cat-icon { background: var(--ivory-2); color: var(--emerald-900); }
+.category-card:hover .cat-icon { background: var(--emerald-900); color: var(--gold-300); }
+.cat-link, .read-more { color: var(--gold-600); }
+
+.filter-tabs { border-color: var(--line-warm); }
+.filter-tab:hover { color: var(--emerald-900); }
+.filter-tab.is-active { background: var(--emerald-900); color: var(--gold-300); }
+
+.course-thumb .badge, .badge { background: rgba(6, 19, 12, .86); color: var(--gold-300); box-shadow: none; backdrop-filter: blur(6px); }
+.course-sub { color: var(--gold-600); }
+.course-meta .icon { color: var(--gold-500); }
+.course-meta, .course-foot { border-color: var(--line-warm); }
+.price { color: var(--emerald-900); font-family: var(--font-display); }
+
+.why-icon { background: linear-gradient(140deg, var(--emerald-850), var(--emerald-950)); color: var(--gold-300); box-shadow: 0 12px 24px -12px rgba(6, 19, 12, .6); }
+.why-num { color: var(--gold-200); font-family: var(--font-display); }
+.approach { background: var(--ivory-2); border: 1px solid var(--line-warm); }
+.approach-label { color: var(--emerald-900); }
+.approach li { border-color: var(--line-warm); color: var(--emerald-900); }
+
+.exp-icon { background: var(--emerald-950); color: var(--gold-300); }
+.exp-card:hover .exp-icon { background: var(--gold-500); color: var(--emerald-950); }
+
+.article-tag { background: var(--ivory-2); color: var(--emerald-900); }
+
+/* ---------- Corporate (B2B) ---------- */
+.corporate { background: var(--emerald-950); }
+.corporate-bg {
+  background:
+    radial-gradient(640px 420px at 92% 8%, rgba(47, 168, 79, .2), transparent 70%),
+    radial-gradient(560px 420px at 0% 100%, rgba(194, 155, 79, .16), transparent 70%);
+}
+.check-list .icon { background: rgba(194, 155, 79, .16); color: var(--gold-300); }
+.corp-item { background: rgba(255, 255, 255, .03); border-color: rgba(194, 155, 79, .16); }
+.corp-item:hover { background: rgba(194, 155, 79, .06); border-color: rgba(194, 155, 79, .5); }
+.corp-item > .icon { color: var(--gold-400); }
+.check-list.light .icon { background: var(--ivory-2); color: var(--gold-600); }
+
+/* ---------- Video ---------- */
+.video-frame { box-shadow: 0 0 0 1px rgba(194, 155, 79, .45), 0 0 0 10px rgba(194, 155, 79, .07), var(--shadow-lux); }
+
+/* ---------- Experience (แถบเข้ม) ---------- */
+.experience { background: var(--grad-night); }
+.experience .section-head h2 { color: #FFFFFF; }
+.experience .kicker { color: var(--gold-400); }
+.stats-grid { background: rgba(255, 255, 255, .02); border-color: rgba(194, 155, 79, .25); }
+.stat + .stat, .stat:nth-child(even), .stat:nth-child(n+3) { border-color: rgba(194, 155, 79, .18); }
+.stat-icon { color: var(--gold-400); }
+.stat-value { color: var(--gold-300); font-family: var(--font-display); }
+.placeholder-value { color: rgba(235, 212, 154, .35); }
+.stat-label { color: rgba(255, 255, 255, .7); }
+
+/* ---------- Gallery / Clients / Testimonials ---------- */
+.g-item { box-shadow: 0 16px 34px -26px rgba(6, 19, 12, .5); }
+.logo-slot { border-color: #DCCFB2; background: #FFFFFF; color: #A99B7C; }
+.logo-slot:hover { border-color: var(--gold-500); color: var(--gold-600); }
+.testi-card { background: var(--ivory); }
+.testi-quote { color: var(--gold-500); font-family: var(--font-display); }
+.avatar { background: linear-gradient(135deg, var(--gold-200), var(--ivory-2)); }
+
+/* ---------- CTA ---------- */
+.cta-section { background: var(--ivory); }
+.cta-box {
+  background:
+    radial-gradient(520px 320px at 100% 0%, rgba(194, 155, 79, .22), transparent 70%),
+    var(--grad-night);
+  border: 1px solid rgba(194, 155, 79, .35);
+  box-shadow: var(--shadow-lux);
+}
+.cta-box::before, .cta-box::after { border-color: rgba(194, 155, 79, .1); }
+.cta-box p { color: rgba(255, 255, 255, .75); }
+
+/* ---------- Footer ---------- */
+.site-footer { background: #040C07; border-top: 1px solid rgba(194, 155, 79, .2); }
+.footer-tagline { color: var(--gold-400); }
+.brand-light .brand-text small { color: var(--gold-400); }
+.social a { border: 1px solid rgba(194, 155, 79, .22); background: transparent; }
+.social a:hover { background: var(--gold-500); color: var(--emerald-950); border-color: var(--gold-500); }
+.footer-col a:hover { color: var(--gold-300); }
+.contact-list .icon { color: var(--gold-400); }
+.footer-bottom { border-color: rgba(194, 155, 79, .14); }
+
+/* ---------- Modal ---------- */
+.course-modal { border: 1px solid var(--line-warm); }
+.course-modal::backdrop { background: rgba(6, 19, 12, .7); }
+.course-modal .badge { background: var(--emerald-900); color: var(--gold-300); }
+
+/* ---------- Checkout ---------- */
+.checkout-page { background: var(--ivory); }
+.step-panel, .order-summary { border-color: var(--line-warm); box-shadow: 0 18px 40px -32px rgba(6, 19, 12, .35); }
+.stepper li.is-current .step-dot { border-color: var(--gold-500); color: var(--gold-600); box-shadow: 0 0 0 5px rgba(194, 155, 79, .18); }
+.stepper li.is-done .step-dot { background: var(--emerald-900); border-color: var(--emerald-900); color: var(--gold-300); }
+.stepper li.is-done::before, .stepper li.is-current::before { background: var(--gold-500); }
+.field input:focus, .field textarea:focus, .field select:focus { border-color: var(--gold-500); box-shadow: 0 0 0 4px rgba(194, 155, 79, .18); }
+.pay-method:hover { border-color: var(--gold-400); }
+.pay-method:has(input:checked) { border-color: var(--gold-500); background: var(--ivory); box-shadow: 0 0 0 3px rgba(194, 155, 79, .16); }
+.pay-method:has(input:checked) .pay-icon { background: var(--emerald-900); color: var(--gold-300); }
+.qr-box, .bank-card, .manual-send, .invoice-fields { background: var(--ivory); }
+.qr-amount, .bank-amount, .summary-lines .total dd, .order-no strong { color: var(--emerald-900); font-family: var(--font-display); }
+.order-no { background: var(--ivory-2); }
+.done-icon { background: var(--grad-gold); color: var(--emerald-950); }
+.summary-course .badge { background: var(--emerald-900); color: var(--gold-300); }
+.check input { accent-color: var(--emerald-900); }
+.checkout-footer { background: #040C07; }
