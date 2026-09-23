@@ -716,6 +716,8 @@ button { font: inherit; cursor: pointer; }
 .contact-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; }
 .contact-list .icon { color: var(--green-300); margin-top: 3px; }
 .contact-list em { font-style: normal; color: rgba(255, 255, 255, .42); }
+.contact-list address { font-style: normal; }
+.contact-list span { overflow-wrap: anywhere; }
 
 .footer-bottom { padding: 22px var(--gutter); border-top: 1px solid rgba(255, 255, 255, .08); font-size: 14px; }
 .footer-bottom p { margin: 0; }
