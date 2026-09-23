@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===================== SEO ===================== -->
+  <title>Smart Leader Thailand | Leadership, AI &amp; Future Skills</title>
+  <meta name="description" content="Smart Leader Thailand พัฒนาผู้นำ หัวหน้างาน ผู้จัดการ และองค์กร ผ่าน Corporate Training, Leadership Development, AI Training, Coaching และ Online Courses">
+  <meta name="theme-color" content="#0E4D26">
+  <!-- TODO: ใส่ URL จริงของเว็บไซต์เมื่อมีโดเมน -->
+  <!-- <link rel="canonical" href="https://www.your-domain.com/"> -->
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Smart Leader Thailand">
+  <meta property="og:title" content="Smart Leader Thailand | Leadership, AI &amp; Future Skills">
+  <meta property="og:description" content="พัฒนาผู้นำ หัวหน้างาน ผู้จัดการ และองค์กร ผ่าน Corporate Training, Leadership Development, AI Training, Coaching และ Online Courses">
+  <meta property="og:locale" content="th_TH">
+  <!-- TODO: เปลี่ยนเป็นภาพ OG จริง (แนะนำ 1200x630px) และใช้ URL เต็มเมื่อมีโดเมน -->
+  <meta property="og:image" content="assets/slt-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="assets/slt-logo.png">
+
+  <!-- Fonts: Prompt (หัวข้อ) + Noto Sans Thai (เนื้อหา) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- ทำเครื่องหมายว่า JS ทำงาน ก่อนหน้าแสดงผล (ป้องกันเนื้อหากระพริบตอน Scroll Reveal) -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <!-- ===================== ICON SPRITE (inline SVG) ===================== -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4m0 0h11l-2 4 2 4H5"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6.5 6.5 0 0 1 3.5 6"/></symbol>
+      <symbol id="i-ai" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9.5 15 11 9h2l1.5 6M10 13h4M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></symbol>
+      <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+      <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2"/><path d="M9 15l-3-3c1-4 5-9 13-9 0 8-5 12-9 13l-1-1Z"/><circle cx="15" cy="9" r="1.6"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/></symbol>
+      <symbol id="i-level" viewBox="0 0 24 24"><path d="M5 20v-5M12 20V10M19 20V4"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-present" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M12 16v5M8 21h8M7 12l3-3 2 2 4-4"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 10h8M8 13h5"/></symbol>
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 9 5 3-5 3V9Z"/></symbol>
+      <symbol id="i-brain" viewBox="0 0 24 24"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 6 1V5a2 2 0 0 0-3-1Z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-6 1"/></symbol>
+      <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></symbol>
+      <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+      <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+      <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+      <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+      <symbol id="i-line" viewBox="0 0 24 24"><path d="M12 4c5 0 9 3.1 9 7s-4 7-9 7c-.8 0-1.6-.1-2.3-.2L6 20v-3.3C4.2 15.4 3 13.3 3 11c0-3.9 4-7 9-7Z"/><path d="M7.5 9.5v3h1.5M11 9.5v3M13.5 12.5v-3l2 3v-3M18 9.5h-1.5v3H18M16.5 11H18"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8Z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></symbol>
+      <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 3 2.5 5 5.5 5"/></symbol>
+      <symbol id="i-building" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M9 7h.01M15 7h.01M9 11h.01M15 11h.01M9 15h.01M15 15h.01M10 21v-3h4v3"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===================== HEADER / NAVIGATION ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Smart Leader Thailand หน้าแรก">
+        <img src="assets/slt-logo.png" alt="โลโก้ Smart Leader Thailand (SLT)" width="30" height="46">
+        <span class="brand-text">
+          <strong>Smart Leader</strong>
+          <small>THAILAND</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="เมนูหลัก">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">หน้าแรก</a></li>
+          <li><a href="#courses" class="nav-link">คอร์สออนไลน์</a></li>
+          <li><a href="#corporate" class="nav-link">อบรมองค์กร</a></li>
+          <!-- Leadership / AI & Future Skills: เลื่อนไปที่คอร์สและกรองหมวดให้อัตโนมัติ -->
+          <li><a href="#courses" class="nav-link" data-filter-link="leadership">Leadership</a></li>
+          <li><a href="#courses" class="nav-link" data-filter-link="ai">AI &amp; Future Skills</a></li>
+          <li><a href="#about" class="nav-link">เกี่ยวกับเรา</a></li>
+          <li><a href="#articles" class="nav-link">บทความ</a></li>
+          <li><a href="#contact" class="nav-link">ติดต่อเรา</a></li>
+        </ul>
+        <a href="#courses" class="btn btn-primary nav-cta">ดูคอร์สทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="grid-lines"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="dot"></span> Leadership &amp; Future Skills Learning Company</p>
+          <h1><span class="nowrap">พัฒนาผู้นำ</span>และ<span class="nowrap">ทักษะแห่งอนาคต</span> <span class="text-gradient">เพื่อการทำงานในยุค AI</span></h1>
+          <p class="lead">เรียนรู้ Leadership, Management, AI และ Future Skills ผ่านหลักสูตรที่ออกแบบให้เข้าใจง่าย มีส่วนร่วม และสามารถนำกลับไปใช้กับงานจริง</p>
+
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary btn-lg">ดูคอร์สออนไลน์ <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a href="#corporate" class="btn btn-outline btn-lg">อบรมสำหรับองค์กร</a>
+          </div>
+
+          <p class="hero-note"><svg class="icon"><use href="#i-play"/></svg> Online Course เริ่มต้นเพียง <strong>499 บาท</strong></p>
+
+          <ul class="hero-tags" aria-label="รูปแบบการเรียนรู้">
+            <li>Classroom Training</li>
+            <li>Online Learning</li>
+            <li>Workshop</li>
+            <li>Coaching</li>
+            <li>Consulting</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" data-reveal data-delay="150">
+          <!-- TODO: เปลี่ยน Placeholder เป็นภาพจริง เช่น <img src="images/hero-training.jpg" alt="บรรยากาศการอบรม Smart Leader Thailand"> -->
+          <figure class="hero-media placeholder-media">
+            <svg class="icon"><use href="#i-image"/></svg>
+            <figcaption>พื้นที่ภาพผู้บริหาร / ทีมงาน / บรรยากาศการอบรม<br><small>images/hero-training.jpg</small></figcaption>
+          </figure>
+
+          <div class="float-card float-card-a">
+            <span class="float-icon"><svg class="icon"><use href="#i-play"/></svg></span>
+            <div>
+              <strong>Online Course</strong>
+              <small>เรียนได้ทุกที่ ทุกเวลา</small>
+            </div>
+          </div>
+
+          <div class="float-card float-card-b">
+            <span class="float-icon dark"><svg class="icon"><use href="#i-users"/></svg></span>
+            <div>
+              <strong>Corporate Training</strong>
+              <small>ออกแบบตามโจทย์องค์กร</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COURSE CATEGORY ===================== -->
+    <section class="section" id="categories">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <p class="kicker">Course Categories</p>
+          <h2>เรียนรู้ทักษะที่จำเป็นสำหรับโลกการทำงานยุคใหม่</h2>
+          <p>เลือกพัฒนาทักษะที่ตรงกับบทบาทของคุณ ตั้งแต่หัวหน้างานมือใหม่ไปจนถึงผู้บริหาร</p>
+        </header>
+
+        <div class="category-grid">
+          <a href="#courses" class="category-card" data-filter-link="leadership" data-reveal>
+            <span class="cat-icon"><svg class="icon"><use href="#i-flag"/></svg></span>
+            <h3>Leadership</h3>
+            <p>ภาวะผู้นำ การสร้างแรงบันดาลใจ และการนำทีมผ่านการเปลี่ยนแปลง</p>
+            <span class="cat-link">ดูคอร์ส <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="#courses" class="category-card" data-filter-link="management" data-reveal data-delay="60">
+            <span class="cat-icon"><svg class="icon"><use href="#i-layers"/></svg></span>
+            <h3>Management</h3>
+            <p>การวางแผน บริหารงาน บริหารคน และการตัดสินใจอย่างมีระบบ</p>
+            <span class="cat-link">ดูคอร์ส <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="#courses" class="category-card" data-filter-link="management" data-reveal data-delay="120">
+            <span class="cat-icon"><svg class="icon"><use href="#i-users"/></svg></span>
+            <h3>Supervisor Skills</h3>
+            <p>ทักษะหัวหน้างาน การสื่อสาร การมอบหมายงาน และการ Feedback</p>
+            <span class="cat-link">ดูคอร์ส <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="#courses" class="category-card" data-filter-link="ai" data-reveal>
+            <span class="cat-icon"><svg class="icon"><use href="#i-ai"/></svg></span>
+            <h3>AI for Work</h3>
+            <p>ใช้ AI และ Generative AI ช่วยคิด วิเคราะห์ และเพิ่ม Productivity</p>
+            <span class="cat-link">ดูคอร์ส <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="#courses" class="category-card" data-filter-link="ai" data-reveal data-delay="60">
+            <span class="cat-icon"><svg class="icon"><use href="#i-monitor"/></svg></span>
+            <h3>Digital Skills</h3>
+            <p>เครื่องมือดิจิทัลและวิธีทำงานแบบใหม่ที่ทีมยุคนี้ต้องมี</p>
+            <span class="cat-link">ดูคอร์ส <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a href="#courses" class="category-card" data-filter-link="ai" data-reveal data-delay="120">
+            <span class="cat-icon"><svg class="icon"><use href="#i-rocket"/></svg></span>
+            <h3>Future Skills</h3>
+            <p>การคิดเชิงวิพากษ์ ความยืดหยุ่น และการเรียนรู้ตลอดชีวิต</p>
+            <span class="cat-link">ดูคอร์ส <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POPULAR ONLINE COURSES ===================== -->
+    <section class="section section-alt" id="courses">
+      <div class="container">
+        <header class="section-head split" data-reveal>
+          <div>
+            <p class="kicker">Online Courses</p>
+            <h2>คอร์สออนไลน์แนะนำ</h2>
+            <p>เรียนด้วยตัวเองผ่านวิดีโอ พร้อมแบบฝึกหัดที่นำไปใช้กับงานได้ทันที</p>
+          </div>
+          <div class="filter-tabs" role="tablist" aria-label="กรองหมวดคอร์ส">
+            <button class="filter-tab is-active" data-filter="all" role="tab" aria-selected="true">ทั้งหมด</button>
+            <button class="filter-tab" data-filter="leadership" role="tab" aria-selected="false">Leadership</button>
+            <button class="filter-tab" data-filter="management" role="tab" aria-selected="false">Management</button>
+            <button class="filter-tab" data-filter="ai" role="tab" aria-selected="false">AI &amp; Future Skills</button>
+          </div>
+        </header>
+
+        <!--
+          หมายเหตุ: ระยะเวลา จำนวนบทเรียน และราคา เป็นข้อมูลตัวอย่าง
+          TODO: แก้ไขเป็นข้อมูลหลักสูตรจริงก่อนเปิดใช้งาน
+          ภาพคอร์ส: แทนที่ <div class="course-thumb ..."> ด้วย <img src="images/course-xx.jpg" alt="..."> ได้
+        -->
+        <div class="course-grid" id="courseGrid">
+
+          <article class="course-card" data-course-id="modern-leadership-ai" data-category="leadership" data-reveal>
+            <div class="course-thumb thumb-1">
+              <svg class="icon"><use href="#i-flag"/></svg>
+              <span class="badge">Leadership</span>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">ผู้นำยุคใหม่ในโลก AI</h3>
+              <p class="course-sub">Modern Leadership in AI Era</p>
+              <p class="course-desc">เข้าใจบทบาทผู้นำเมื่อ AI เปลี่ยนวิธีทำงาน และนำทีมผ่านการเปลี่ยนแปลงได้อย่างมั่นใจ</p>
+              <ul class="course-meta">
+                <li><svg class="icon"><use href="#i-clock"/></svg> 4 ชั่วโมง</li>
+                <li><svg class="icon"><use href="#i-book"/></svg> 12 บทเรียน</li>
+                <li><svg class="icon"><use href="#i-level"/></svg> Intermediate</li>
+              </ul>
+              <div class="course-foot">
+                <span class="price">฿499</span>
+                <button class="btn btn-soft btn-sm js-course-detail">ดูรายละเอียด</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-course-id="ai-for-managers" data-category="ai" data-reveal data-delay="60">
+            <div class="course-thumb thumb-2">
+              <svg class="icon"><use href="#i-ai"/></svg>
+              <span class="badge">AI for Work</span>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">AI สำหรับหัวหน้างานและผู้จัดการ</h3>
+              <p class="course-sub">AI for Supervisors &amp; Managers</p>
+              <p class="course-desc">ใช้ AI ช่วยวางแผนงาน สรุปข้อมูล และตัดสินใจ เพื่อบริหารทีมได้มีประสิทธิภาพขึ้น</p>
+              <ul class="course-meta">
+                <li><svg class="icon"><use href="#i-clock"/></svg> 3 ชั่วโมง</li>
+                <li><svg class="icon"><use href="#i-book"/></svg> 10 บทเรียน</li>
+                <li><svg class="icon"><use href="#i-level"/></svg> Beginner</li>
+              </ul>
+              <div class="course-foot">
+                <span class="price">฿499</span>
+                <button class="btn btn-soft btn-sm js-course-detail">ดูรายละเอียด</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-course-id="genai-productivity" data-category="ai" data-reveal data-delay="120">
+            <div class="course-thumb thumb-3">
+              <svg class="icon"><use href="#i-zap"/></svg>
+              <span class="badge">AI for Work</span>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Generative AI เพื่อเพิ่ม Productivity</h3>
+              <p class="course-sub">Generative AI for Productivity</p>
+              <p class="course-desc">เทคนิคเขียน Prompt และ Workflow ที่ช่วยลดเวลางานประจำวัน ใช้ได้กับทุกตำแหน่ง</p>
+              <ul class="course-meta">
+                <li><svg class="icon"><use href="#i-clock"/></svg> 5 ชั่วโมง</li>
+                <li><svg class="icon"><use href="#i-book"/></svg> 15 บทเรียน</li>
+                <li><svg class="icon"><use href="#i-level"/></svg> Beginner</li>
+              </ul>
+              <div class="course-foot">
+                <span class="price">฿499</span>
+                <button class="btn btn-soft btn-sm js-course-detail">ดูรายละเอียด</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-course-id="supervisor-skills" data-category="management" data-reveal>
+            <div class="course-thumb thumb-4">
+              <svg class="icon"><use href="#i-users"/></svg>
+              <span class="badge">Supervisor Skills</span>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">ทักษะหัวหน้างานยุคใหม่</h3>
+              <p class="course-sub">Essential Supervisor Skills</p>
+              <p class="course-desc">การสื่อสาร มอบหมายงาน ติดตามผล และให้ Feedback อย่างสร้างสรรค์สำหรับหัวหน้างาน</p>
+              <ul class="course-meta">
+                <li><svg class="icon"><use href="#i-clock"/></svg> 4 ชั่วโมง</li>
+                <li><svg class="icon"><use href="#i-book"/></svg> 12 บทเรียน</li>
+                <li><svg class="icon"><use href="#i-level"/></svg> Beginner</li>
+              </ul>
+              <div class="course-foot">
+                <span class="price">฿499</span>
+                <button class="btn btn-soft btn-sm js-course-detail">ดูรายละเอียด</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-course-id="coaching-skills" data-category="leadership" data-reveal data-delay="60">
+            <div class="course-thumb thumb-5">
+              <svg class="icon"><use href="#i-chat"/></svg>
+              <span class="badge">Coaching</span>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Coaching Skills for Leader</h3>
+              <p class="course-sub">ทักษะการโค้ชสำหรับผู้นำ</p>
+              <p class="course-desc">ฝึกการตั้งคำถาม การฟังเชิงลึก และการโค้ชเพื่อดึงศักยภาพของสมาชิกในทีม</p>
+              <ul class="course-meta">
+                <li><svg class="icon"><use href="#i-clock"/></svg> 3 ชั่วโมง</li>
+                <li><svg class="icon"><use href="#i-book"/></svg> 9 บทเรียน</li>
+                <li><svg class="icon"><use href="#i-level"/></svg> Intermediate</li>
+              </ul>
+              <div class="course-foot">
+                <span class="price">฿499</span>
+                <button class="btn btn-soft btn-sm js-course-detail">ดูรายละเอียด</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card" data-course-id="future-skills" data-category="ai" data-reveal data-delay="120">
+            <div class="course-thumb thumb-6">
+              <svg class="icon"><use href="#i-rocket"/></svg>
+              <span class="badge">Future Skills</span>
+            </div>
+            <div class="course-body">
+              <h3 class="course-title">Future Skills for Modern Workplace</h3>
+              <p class="course-sub">ทักษะแห่งอนาคตสำหรับที่ทำงานยุคใหม่</p>
+              <p class="course-desc">Critical Thinking, Adaptability และ Collaboration ทักษะที่ทำให้คุณเติบโตได้ในทุกการเปลี่ยนแปลง</p>
+              <ul class="course-meta">
+                <li><svg class="icon"><use href="#i-clock"/></svg> 2 ชั่วโมง</li>
+                <li><svg class="icon"><use href="#i-book"/></svg> 8 บทเรียน</li>
+                <li><svg class="icon"><use href="#i-level"/></svg> Beginner</li>
+              </ul>
+              <div class="course-foot">
+                <span class="price">฿499</span>
+                <button class="btn btn-soft btn-sm js-course-detail">ดูรายละเอียด</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="empty-state" id="courseEmpty" hidden>ยังไม่มีคอร์สในหมวดนี้ — กำลังพัฒนาเพิ่มเติม</p>
+
+        <div class="center-action" data-reveal>
+          <a href="#contact" class="btn btn-outline">สอบถามคอร์สเพิ่มเติม <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CORPORATE TRAINING (B2B) ===================== -->
+    <section class="section corporate" id="corporate">
+      <div class="corporate-bg" aria-hidden="true"></div>
+      <div class="container corporate-inner">
+        <div class="corporate-copy" data-reveal>
+          <p class="kicker on-dark">Corporate Training</p>
+          <h2>พัฒนาคนและองค์กร <span class="text-lime">ด้วย Learning Solution ที่ออกแบบให้เหมาะกับธุรกิจของคุณ</span></h2>
+          <p>Smart Leader Thailand ให้บริการ Corporate Training, Leadership Development, Coaching และ Consulting สำหรับองค์กรที่ต้องการพัฒนาคนให้พร้อมต่อการเปลี่ยนแปลง</p>
+
+          <ul class="check-list">
+            <li><svg class="icon"><use href="#i-check"/></svg> วิเคราะห์ความต้องการก่อนออกแบบหลักสูตร</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> รูปแบบ In-house, Workshop, Online และ Coaching</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> เน้นการนำไปใช้จริงหลังการอบรม</li>
+          </ul>
+
+          <a href="#contact" class="btn btn-lime btn-lg">ขอรายละเอียดอบรมองค์กร <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <div class="corp-grid">
+          <div class="corp-item" data-reveal>
+            <svg class="icon"><use href="#i-flag"/></svg>
+            <h3>Leadership Development</h3>
+            <p>พัฒนาภาวะผู้นำทุกระดับ</p>
+          </div>
+          <div class="corp-item" data-reveal data-delay="60">
+            <svg class="icon"><use href="#i-users"/></svg>
+            <h3>Supervisor Development</h3>
+            <p>สร้างหัวหน้างานที่พร้อมนำทีม</p>
+          </div>
+          <div class="corp-item" data-reveal data-delay="120">
+            <svg class="icon"><use href="#i-layers"/></svg>
+            <h3>Manager Development</h3>
+            <p>ยกระดับการบริหารคนและงาน</p>
+          </div>
+          <div class="corp-item" data-reveal>
+            <svg class="icon"><use href="#i-ai"/></svg>
+            <h3>AI for Organization</h3>
+            <p>นำ AI มาใช้ในองค์กรอย่างเป็นระบบ</p>
+          </div>
+          <div class="corp-item" data-reveal data-delay="60">
+            <svg class="icon"><use href="#i-target"/></svg>
+            <h3>Team Development</h3>
+            <p>สร้างทีมที่ไว้ใจและทำงานร่วมกันได้ดี</p>
+          </div>
+          <div class="corp-item" data-reveal data-delay="120">
+            <svg class="icon"><use href="#i-sliders"/></svg>
+            <h3>Customized Training</h3>
+            <p>ออกแบบหลักสูตรเฉพาะองค์กร</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY SMART LEADER ===================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <p class="kicker">About Us</p>
+          <h2>ทำไมองค์กรเลือก Smart Leader Thailand</h2>
+          <p>พัฒนาคน พัฒนาผู้นำ พัฒนาองค์กร ให้พร้อมสำหรับโลกการทำงานยุคใหม่และยุค AI</p>
+        </header>
+
+        <div class="why-grid">
+          <div class="why-card" data-reveal>
+            <span class="why-num">01</span>
+            <span class="why-icon"><svg class="icon"><use href="#i-target"/></svg></span>
+            <h3>Practical Learning</h3>
+            <p>เรียนรู้จากสถานการณ์จริงและนำไปใช้กับงานได้</p>
+          </div>
+          <div class="why-card" data-reveal data-delay="60">
+            <span class="why-num">02</span>
+            <span class="why-icon"><svg class="icon"><use href="#i-zap"/></svg></span>
+            <h3>Active Learning</h3>
+            <p>ผู้เรียนมีส่วนร่วมตลอดกระบวนการเรียนรู้</p>
+          </div>
+          <div class="why-card" data-reveal data-delay="120">
+            <span class="why-num">03</span>
+            <span class="why-icon"><svg class="icon"><use href="#i-brain"/></svg></span>
+            <h3>Brain-Based Learning</h3>
+            <p>ออกแบบการเรียนรู้ให้เข้าใจและจดจำได้ง่าย</p>
+          </div>
+          <div class="why-card" data-reveal data-delay="180">
+            <span class="why-num">04</span>
+            <span class="why-icon"><svg class="icon"><use href="#i-compass"/></svg></span>
+            <h3>Coaching Approach</h3>
+            <p>ช่วยให้ผู้เรียนค้นพบแนวทางและพัฒนาด้วยตนเอง</p>
+          </div>
+        </div>
+
+        <div class="approach" data-reveal>
+          <span class="approach-label">Learning Approach</span>
+          <ul>
+            <li>Brain-Based Learning</li>
+            <li>Active Learning</li>
+            <li>Experiential Learning</li>
+            <li>Group Coaching</li>
+            <li>Learning by Doing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LEARNING EXPERIENCE ===================== -->
+    <section class="section section-alt" id="learning">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <p class="kicker">Learning Experience</p>
+          <h2>รูปแบบการเรียนรู้ที่ตอบโจทย์ทุกความต้องการ</h2>
+        </header>
+
+        <div class="exp-grid">
+          <div class="exp-card" data-reveal>
+            <span class="exp-icon"><svg class="icon"><use href="#i-present"/></svg></span>
+            <h3>Training</h3>
+            <p>Classroom Training และ Workshop ที่เน้นกิจกรรมและการลงมือทำ</p>
+          </div>
+          <div class="exp-card" data-reveal data-delay="60">
+            <span class="exp-icon"><svg class="icon"><use href="#i-chat"/></svg></span>
+            <h3>Coaching</h3>
+            <p>One-on-One และ Group Coaching เพื่อพัฒนาผู้นำอย่างต่อเนื่อง</p>
+          </div>
+          <div class="exp-card" data-reveal data-delay="120">
+            <span class="exp-icon"><svg class="icon"><use href="#i-briefcase"/></svg></span>
+            <h3>Consulting</h3>
+            <p>ให้คำปรึกษาด้านการพัฒนาคนและออกแบบ Learning Solution</p>
+          </div>
+          <div class="exp-card" data-reveal data-delay="180">
+            <span class="exp-icon"><svg class="icon"><use href="#i-play"/></svg></span>
+            <h3>Online Learning</h3>
+            <p>คอร์สออนไลน์เรียนได้ทุกที่ ทุกเวลา ในราคาที่เข้าถึงได้</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BUSINESS EXPERIENCE ===================== -->
+    <section class="section experience">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <p class="kicker">Our Experience</p>
+          <h2>ประสบการณ์ในการพัฒนาคนและองค์กร</h2>
+        </header>
+
+        <!-- TODO: ต้องเปลี่ยนเป็นข้อมูลจริงภายหลัง — ห้ามใส่ตัวเลขที่ไม่มีหลักฐานรองรับ
+             ตัวอย่างการใส่ข้อมูล: <span class="stat-value">120+</span> -->
+        <div class="stats-grid">
+          <div class="stat" data-reveal>
+            <span class="stat-icon"><svg class="icon"><use href="#i-building"/></svg></span>
+            <span class="stat-value placeholder-value">—</span>
+            <span class="stat-label">องค์กรที่ไว้วางใจเรา</span>
+          </div>
+          <div class="stat" data-reveal data-delay="60">
+            <span class="stat-icon"><svg class="icon"><use href="#i-users"/></svg></span>
+            <span class="stat-value placeholder-value">—</span>
+            <span class="stat-label">ผู้เรียนและผู้เข้าอบรม</span>
+          </div>
+          <div class="stat" data-reveal data-delay="120">
+            <span class="stat-icon"><svg class="icon"><use href="#i-book"/></svg></span>
+            <span class="stat-value placeholder-value">—</span>
+            <span class="stat-label">หลักสูตรพัฒนาองค์กร</span>
+          </div>
+          <div class="stat" data-reveal data-delay="180">
+            <span class="stat-icon"><svg class="icon"><use href="#i-compass"/></svg></span>
+            <span class="stat-value placeholder-value">—</span>
+            <span class="stat-label">ประสบการณ์ด้าน Learning &amp; Development</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CLIENT LOGO ===================== -->
+    <section class="section section-alt" id="clients">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <h2>องค์กรที่ไว้วางใจ Smart Leader Thailand</h2>
+          <p>พื้นที่สำหรับแสดงโลโก้องค์กรลูกค้า</p>
+        </header>
+
+        <!-- TODO: ใส่โลโก้ลูกค้าจริง (ได้รับอนุญาตแล้ว) เช่น <img src="images/clients/client-01.png" alt="ชื่อองค์กร"> -->
+        <ul class="logo-grid" data-reveal>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+          <li class="logo-slot">Client Logo</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIAL ===================== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header class="section-head center" data-reveal>
+          <p class="kicker">Testimonials</p>
+          <h2>เสียงจากผู้เรียนและองค์กร</h2>
+        </header>
+
+        <!-- TODO: ใส่คำรับรองจากลูกค้าจริง (ได้รับอนุญาตแล้ว) พร้อมชื่อ ตำแหน่ง และองค์กร -->
+        <div class="testi-grid">
+          <figure class="testi-card" data-reveal>
+            <span class="testi-quote" aria-hidden="true">&ldquo;</span>
+            <blockquote>“เพิ่มความคิดเห็นจากลูกค้าจริงที่นี่”</blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true"></span>
+              <span><strong>ชื่อผู้ให้ความคิดเห็น</strong><small>ตำแหน่ง / องค์กร</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testi-card" data-reveal data-delay="60">
+            <span class="testi-quote" aria-hidden="true">&ldquo;</span>
+            <blockquote>“เพิ่มความคิดเห็นจากลูกค้าจริงที่นี่”</blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true"></span>
+              <span><strong>ชื่อผู้ให้ความคิดเห็น</strong><small>ตำแหน่ง / องค์กร</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testi-card" data-reveal data-delay="120">
+            <span class="testi-quote" aria-hidden="true">&ldquo;</span>
+            <blockquote>“เพิ่มความคิดเห็นจากลูกค้าจริงที่นี่”</blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true"></span>
+              <span><strong>ชื่อผู้ให้ความคิดเห็น</strong><small>ตำแหน่ง / องค์กร</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ARTICLES ===================== -->
+    <section class="section section-alt" id="articles">
+      <div class="container">
+        <header class="section-head split" data-reveal>
+          <div>
+            <p class="kicker">Insights</p>
+            <h2>บทความและความรู้</h2>
+            <p>แนวคิดและเครื่องมือสำหรับผู้นำ หัวหน้างาน และทีม HR</p>
+          </div>
+        </header>
+
+        <!-- TODO: เชื่อมลิงก์ "อ่านต่อ" ไปยังหน้าบทความจริงเมื่อพร้อม และเปลี่ยนภาพเป็น images/article-xx.jpg -->
+        <div class="article-grid">
+          <article class="article-card" data-reveal>
+            <div class="article-thumb thumb-1"><svg class="icon"><use href="#i-flag"/></svg></div>
+            <div class="article-body">
+              <span class="article-tag">Leadership</span>
+              <h3>5 ทักษะที่ผู้นำยุค AI ควรมี</h3>
+              <p>ทักษะสำคัญที่ช่วยให้ผู้นำนำทีมได้อย่างมั่นใจ ท่ามกลางเทคโนโลยีที่เปลี่ยนเร็ว</p>
+              <a href="#articles" class="read-more">อ่านต่อ <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+          <article class="article-card" data-reveal data-delay="60">
+            <div class="article-thumb thumb-2"><svg class="icon"><use href="#i-ai"/></svg></div>
+            <div class="article-body">
+              <span class="article-tag">AI</span>
+              <h3>หัวหน้างานจะใช้ AI เพิ่ม Productivity ได้อย่างไร</h3>
+              <p>ตัวอย่างการนำ AI มาช่วยวางแผน สรุปประชุม และติดตามงานของทีม</p>
+              <a href="#articles" class="read-more">อ่านต่อ <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+          <article class="article-card" data-reveal data-delay="120">
+            <div class="article-thumb thumb-4"><svg class="icon"><use href="#i-layers"/></svg></div>
+            <div class="article-body">
+              <span class="article-tag">Management</span>
+              <h3>Leadership Skills ที่องค์กรยุคใหม่ต้องการ</h3>
+              <p>องค์กรมองหาผู้นำแบบไหน และจะพัฒนาทักษะเหล่านี้ให้ทีมได้อย่างไร</p>
+              <a href="#articles" class="read-more">อ่านต่อ <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+          <article class="article-card" data-reveal data-delay="180">
+            <div class="article-thumb thumb-6"><svg class="icon"><use href="#i-rocket"/></svg></div>
+            <div class="article-body">
+              <span class="article-tag">Future Skills</span>
+              <h3>Future Skills: ทักษะที่ทำให้คนทำงานไม่ตกยุค</h3>
+              <p>ทำความรู้จักทักษะแห่งอนาคตที่ทุกตำแหน่งควรเริ่มพัฒนาตั้งแต่วันนี้</p>
+              <a href="#articles" class="read-more">อ่านต่อ <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box" data-reveal>
+          <div class="cta-copy">
+            <h2>พร้อมพัฒนาคนและองค์กรของคุณแล้วหรือยัง?</h2>
+            <p>เลือกเรียน Online Course หรือออกแบบหลักสูตรสำหรับองค์กรร่วมกับ Smart Leader Thailand</p>
+          </div>
+          <div class="cta-actions">
+            <a href="#courses" class="btn btn-white btn-lg">ดูคอร์สออนไลน์</a>
+            <a href="#contact" class="btn btn-ghost-light btn-lg">ปรึกษาหลักสูตรองค์กร</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#home" aria-label="Smart Leader Thailand หน้าแรก">
+          <img src="assets/slt-logo.png" alt="โลโก้ Smart Leader Thailand (SLT)" width="30" height="46">
+          <span class="brand-text">
+            <strong>Smart Leader</strong>
+            <small>THAILAND</small>
+          </span>
+        </a>
+        <p class="footer-tagline">Leadership &amp; Future Skills Learning Company</p>
+        <p class="footer-about">พัฒนาคน พัฒนาผู้นำ พัฒนาองค์กร ให้พร้อมสำหรับโลกการทำงานยุคใหม่และยุค AI</p>
+
+        <!-- TODO: ใส่ลิงก์ Social Media จริง -->
+        <ul class="social">
+          <li><a href="#contact" aria-label="Facebook (รอใส่ลิงก์)"><svg class="icon"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="#contact" aria-label="TikTok (รอใส่ลิงก์)"><svg class="icon"><use href="#i-tiktok"/></svg></a></li>
+          <li><a href="#contact" aria-label="Instagram (รอใส่ลิงก์)"><svg class="icon"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="#contact" aria-label="LINE (รอใส่ลิงก์)"><svg class="icon"><use href="#i-line"/></svg></a></li>
+        </ul>
+      </div>
+
+      <nav class="footer-col" aria-label="เมนูส่วนท้าย">
+        <h3>เมนู</h3>
+        <ul>
+          <li><a href="#courses">คอร์สออนไลน์</a></li>
+          <li><a href="#corporate">Corporate Training</a></li>
+          <li><a href="#courses" data-filter-link="leadership">Leadership</a></li>
+          <li><a href="#courses" data-filter-link="ai">AI</a></li>
+          <li><a href="#articles">บทความ</a></li>
+          <li><a href="#about">เกี่ยวกับเรา</a></li>
+          <li><a href="#contact">ติดต่อเรา</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h3>ติดต่อเรา</h3>
+        <!-- TODO: ใส่ข้อมูลติดต่อจริง เช่น <a href="tel:+66XXXXXXXXX">0X-XXX-XXXX</a> -->
+        <ul class="contact-list">
+          <li><svg class="icon"><use href="#i-phone"/></svg> <span>โทร: <em>รอใส่เบอร์โทรศัพท์</em></span></li>
+          <li><svg class="icon"><use href="#i-mail"/></svg> <span>อีเมล: <em>รอใส่อีเมล</em></span></li>
+          <li><svg class="icon"><use href="#i-line"/></svg> <span>LINE: <em>รอใส่ LINE ID</em></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Smart Leader Thailand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== COURSE DETAIL MODAL ===================== -->
+  <dialog class="course-modal" id="courseModal" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="ปิด">&times;</button>
+    <span class="badge" id="modalBadge"></span>
+    <h3 id="modalTitle"></h3>
+    <p class="course-sub" id="modalSub"></p>
+    <p id="modalDesc"></p>
+    <ul class="course-meta" id="modalMeta"></ul>
+    <!-- TODO: เพิ่มเนื้อหาหลักสูตรฉบับเต็ม -->
+    <p class="modal-note">รายละเอียดหลักสูตรฉบับเต็มกำลังจะเปิดให้บริการ</p>
+    <div class="modal-foot">
+      <span class="price" id="modalPrice"></span>
+      <div class="modal-actions">
+        <a href="#contact" class="btn btn-outline" id="modalAsk">สอบถาม</a>
+        <a href="checkout.html" class="btn btn-primary" id="modalCta">สมัครเรียน / ชำระเงิน</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
