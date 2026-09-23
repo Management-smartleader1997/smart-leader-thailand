@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===================== SEO ===================== -->
+  <title>สมัครเรียนและชำระเงิน | Smart Leader Thailand</title>
+  <meta name="description" content="สมัครเรียนคอร์สออนไลน์ Smart Leader Thailand และชำระเงินผ่าน PromptPay หรือโอนผ่านบัญชีธนาคาร">
+  <!-- หน้าชำระเงินไม่จำเป็นต้องให้ Search Engine เก็บข้อมูล -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0E4D26">
+  <link rel="icon" type="image/png" href="assets/slt-logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600&family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="checkout-page">
+
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <!-- ===================== ICON SPRITE ===================== -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-qr" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></symbol>
+      <symbol id="i-bank" viewBox="0 0 24 24"><path d="M3 10 12 4l9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></symbol>
+      <symbol id="i-card" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.5 10h19M6 15h4"/></symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/></symbol>
+      <symbol id="i-level" viewBox="0 0 24 24"><path d="M5 20v-5M12 20V10M19 20V4"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+      <symbol id="i-line" viewBox="0 0 24 24"><path d="M12 4c5 0 9 3.1 9 7s-4 7-9 7c-.8 0-1.6-.1-2.3-.2L6 20v-3.3C4.2 15.4 3 13.3 3 11c0-3.9 4-7 9-7Z"/><path d="M7.5 9.5v3h1.5M11 9.5v3M13.5 12.5v-3l2 3v-3M18 9.5h-1.5v3H18M16.5 11H18"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header is-scrolled">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Smart Leader Thailand หน้าแรก">
+        <img src="assets/slt-logo.png" alt="โลโก้ Smart Leader Thailand (SLT)" width="30" height="46">
+        <span class="brand-text">
+          <strong>Smart Leader</strong>
+          <small>THAILAND</small>
+        </span>
+      </a>
+      <a href="index.html#courses" class="back-link">
+        <svg class="icon"><use href="#i-arrow-left"/></svg> <span>กลับไปเลือกคอร์ส</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main" class="checkout">
+    <div class="container">
+
+      <header class="checkout-head">
+        <h1>สมัครเรียนและชำระเงิน</h1>
+        <p><svg class="icon"><use href="#i-lock"/></svg> ไม่มีการเก็บข้อมูลบัตรเครดิตบนหน้านี้</p>
+      </header>
+
+      <!-- ===================== STEPPER ===================== -->
+      <ol class="stepper" id="stepper" aria-label="ขั้นตอนการสมัครเรียน">
+        <li data-step="1" class="is-current" aria-current="step"><span class="step-dot">1</span><span class="step-label">ข้อมูลผู้เรียน</span></li>
+        <li data-step="2"><span class="step-dot">2</span><span class="step-label">ชำระเงิน</span></li>
+        <li data-step="3"><span class="step-dot">3</span><span class="step-label">แจ้งชำระเงิน</span></li>
+        <li data-step="4"><span class="step-dot">4</span><span class="step-label">เสร็จสิ้น</span></li>
+      </ol>
+
+      <div class="checkout-layout">
+
+        <!-- ===================== CHECKOUT FORM ===================== -->
+        <form class="checkout-form" id="checkoutForm" novalidate>
+
+          <!-- ---------- STEP 1: ข้อมูลผู้เรียน ---------- -->
+          <section class="step-panel" data-step="1" aria-labelledby="step1Title">
+            <h2 id="step1Title" tabindex="-1">ข้อมูลผู้เรียน</h2>
+            <p class="panel-hint">ลิงก์เข้าเรียนจะส่งไปที่อีเมลนี้หลังตรวจสอบการชำระเงิน</p>
+
+            <div class="field-grid">
+              <div class="field full">
+                <label for="fullName">ชื่อ-นามสกุล <span class="req">*</span></label>
+                <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+                <p class="field-error" data-error-for="fullName"></p>
+              </div>
+              <div class="field">
+                <label for="email">อีเมล <span class="req">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required>
+                <p class="field-error" data-error-for="email"></p>
+              </div>
+              <div class="field">
+                <label for="phone">เบอร์โทรศัพท์ <span class="req">*</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="08X-XXX-XXXX" required>
+                <p class="field-error" data-error-for="phone"></p>
+              </div>
+              <div class="field full">
+                <label for="company">บริษัท / องค์กร <span class="optional">(ไม่บังคับ)</span></label>
+                <input type="text" id="company" name="company" autocomplete="organization">
+              </div>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" id="needInvoice" name="needInvoice">
+              <span>ต้องการใบกำกับภาษี / ใบเสร็จรับเงิน</span>
+            </label>
+
+            <div class="field-grid invoice-fields" id="invoiceFields" hidden>
+              <div class="field">
+                <label for="taxName">ชื่อสำหรับออกใบกำกับภาษี <span class="req">*</span></label>
+                <input type="text" id="taxName" name="taxName">
+                <p class="field-error" data-error-for="taxName"></p>
+              </div>
+              <div class="field">
+                <label for="taxId">เลขประจำตัวผู้เสียภาษี (13 หลัก) <span class="req">*</span></label>
+                <input type="text" id="taxId" name="taxId" inputmode="numeric" maxlength="17">
+                <p class="field-error" data-error-for="taxId"></p>
+              </div>
+              <div class="field full">
+                <label for="taxAddress">ที่อยู่สำหรับออกใบกำกับภาษี <span class="req">*</span></label>
+                <textarea id="taxAddress" name="taxAddress" rows="3"></textarea>
+                <p class="field-error" data-error-for="taxAddress"></p>
+              </div>
+            </div>
+
+            <div class="step-actions">
+              <span></span>
+              <button type="button" class="btn btn-primary btn-lg" data-next>ถัดไป: เลือกวิธีชำระเงิน <svg class="icon"><use href="#i-arrow"/></svg></button>
+            </div>
+          </section>
+
+          <!-- ---------- STEP 2: เลือกวิธีชำระเงิน ---------- -->
+          <section class="step-panel" data-step="2" aria-labelledby="step2Title" hidden>
+            <h2 id="step2Title" tabindex="-1">เลือกวิธีชำระเงิน</h2>
+
+            <div class="pay-methods" role="radiogroup" aria-label="วิธีชำระเงิน">
+              <label class="pay-method">
+                <input type="radio" name="payMethod" value="promptpay" checked>
+                <span class="pay-icon"><svg class="icon"><use href="#i-qr"/></svg></span>
+                <span class="pay-text"><strong>PromptPay QR</strong><small>สแกนจ่ายผ่านแอปธนาคาร</small></span>
+              </label>
+              <label class="pay-method">
+                <input type="radio" name="payMethod" value="bank">
+                <span class="pay-icon"><svg class="icon"><use href="#i-bank"/></svg></span>
+                <span class="pay-text"><strong>โอนผ่านบัญชีธนาคาร</strong><small>โอนแล้วแนบสลิป</small></span>
+              </label>
+              <!-- TODO: เปิดใช้เมื่อเชื่อมต่อ Payment Gateway (เช่น Omise, 2C2P, GB Prime Pay) ผ่าน Backend แล้ว
+                   ห้ามรับเลขบัตรเครดิตผ่านฟอร์มนี้โดยตรง -->
+              <label class="pay-method is-disabled">
+                <input type="radio" name="payMethod" value="card" disabled>
+                <span class="pay-icon"><svg class="icon"><use href="#i-card"/></svg></span>
+                <span class="pay-text"><strong>บัตรเครดิต / เดบิต</strong><small>เร็วๆ นี้</small></span>
+              </label>
+            </div>
+
+            <!-- PromptPay -->
+            <div class="pay-panel" data-pay-panel="promptpay">
+              <div class="qr-box">
+                <div class="qr-frame" id="qrFrame" aria-live="polite"></div>
+                <div class="qr-info">
+                  <p class="qr-label">ยอดชำระ</p>
+                  <p class="qr-amount" data-total></p>
+                  <p class="qr-account">ชื่อบัญชี: <strong id="ppAccountName"></strong></p>
+                  <ol class="qr-steps">
+                    <li>เปิดแอปธนาคารแล้วเลือก “สแกน QR”</li>
+                    <li>สแกน QR Code และตรวจสอบชื่อบัญชีกับยอดเงิน</li>
+                    <li>บันทึกสลิปไว้ เพื่อแนบในขั้นตอนถัดไป</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bank transfer -->
+            <div class="pay-panel" data-pay-panel="bank" hidden>
+              <dl class="bank-card">
+                <div><dt>ธนาคาร</dt><dd id="bankName"></dd></div>
+                <div><dt>ชื่อบัญชี</dt><dd id="bankAccountName"></dd></div>
+                <div>
+                  <dt>เลขที่บัญชี</dt>
+                  <dd class="acct-row">
+                    <span id="bankAccountNo"></span>
+                    <button type="button" class="copy-btn" id="copyAccount"><svg class="icon"><use href="#i-copy"/></svg> คัดลอก</button>
+                  </dd>
+                </div>
+                <div><dt>ยอดโอน</dt><dd class="bank-amount" data-total></dd></div>
+              </dl>
+            </div>
+
+            <div class="step-actions">
+              <button type="button" class="btn btn-outline" data-prev><svg class="icon"><use href="#i-arrow-left"/></svg> ย้อนกลับ</button>
+              <button type="button" class="btn btn-primary btn-lg" data-next>ชำระเงินแล้ว: แจ้งชำระเงิน <svg class="icon"><use href="#i-arrow"/></svg></button>
+            </div>
+          </section>
+
+          <!-- ---------- STEP 3: แจ้งชำระเงิน ---------- -->
+          <section class="step-panel" data-step="3" aria-labelledby="step3Title" hidden>
+            <h2 id="step3Title" tabindex="-1">แจ้งชำระเงิน</h2>
+            <p class="panel-hint">แนบสลิปการโอนเพื่อให้ทีมงานตรวจสอบ</p>
+
+            <div class="field-grid">
+              <div class="field">
+                <label for="paidAt">วันและเวลาที่โอน <span class="req">*</span></label>
+                <input type="datetime-local" id="paidAt" name="paidAt" required>
+                <p class="field-error" data-error-for="paidAt"></p>
+              </div>
+              <div class="field">
+                <label for="paidAmount">ยอดที่โอน (บาท)</label>
+                <input type="text" id="paidAmount" name="paidAmount" readonly>
+              </div>
+
+              <div class="field full">
+                <span class="label" id="slipLabel">สลิปการโอนเงิน <span class="req">*</span></span>
+                <label class="dropzone" id="dropzone" for="slip">
+                  <input type="file" id="slip" name="slip" accept="image/jpeg,image/png,image/webp,application/pdf" aria-labelledby="slipLabel">
+                  <span class="dz-empty" id="dzEmpty">
+                    <svg class="icon"><use href="#i-upload"/></svg>
+                    <strong>คลิกเพื่อเลือกไฟล์ หรือลากไฟล์มาวาง</strong>
+                    <small>JPG, PNG, WEBP หรือ PDF ขนาดไม่เกิน 5 MB</small>
+                  </span>
+                  <span class="dz-preview" id="dzPreview" hidden>
+                    <img id="slipImg" alt="ตัวอย่างสลิปที่แนบ" hidden>
+                    <span class="dz-file" id="slipName"></span>
+                    <span class="dz-change">เปลี่ยนไฟล์</span>
+                  </span>
+                </label>
+                <p class="field-error" data-error-for="slip"></p>
+              </div>
+
+              <div class="field full">
+                <label for="note">หมายเหตุ <span class="optional">(ไม่บังคับ)</span></label>
+                <textarea id="note" name="note" rows="2"></textarea>
+              </div>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" id="consent" name="consent">
+              <!-- TODO: เพิ่มลิงก์ไปยังหน้าเงื่อนไขการใช้บริการ / นโยบายความเป็นส่วนตัว (PDPA) จริง -->
+              <span>ยอมรับเงื่อนไขการใช้บริการ และยินยอมให้ Smart Leader Thailand ใช้ข้อมูลเพื่อดำเนินการสมัครเรียน</span>
+            </label>
+            <p class="field-error" data-error-for="consent"></p>
+
+            <p class="form-error" id="submitError" role="alert" hidden></p>
+
+            <div class="step-actions">
+              <button type="button" class="btn btn-outline" data-prev><svg class="icon"><use href="#i-arrow-left"/></svg> ย้อนกลับ</button>
+              <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">ยืนยันการชำระเงิน <svg class="icon"><use href="#i-check"/></svg></button>
+            </div>
+          </section>
+
+          <!-- ---------- STEP 4: เสร็จสิ้น ---------- -->
+          <section class="step-panel done-panel" data-step="4" aria-labelledby="step4Title" hidden>
+            <span class="done-icon"><svg class="icon"><use href="#i-check"/></svg></span>
+            <h2 id="step4Title" tabindex="-1"></h2>
+            <p class="done-lead" id="doneLead"></p>
+
+            <div class="order-no">
+              <span>เลขที่คำสั่งซื้อ</span>
+              <strong id="orderNo"></strong>
+            </div>
+
+            <!-- แสดงเมื่อยังไม่ได้เชื่อมต่อระบบรับคำสั่งซื้อ (orderEndpoint ว่าง) -->
+            <div class="manual-send" id="manualSend" hidden>
+              <p>กรุณาส่ง <strong>สลิปการโอน</strong> พร้อม <strong>ข้อความสรุปคำสั่งซื้อ</strong> ด้านล่างมาที่ช่องทางใดช่องทางหนึ่ง</p>
+              <ul class="manual-channels">
+                <li><svg class="icon"><use href="#i-line"/></svg> LINE: <span id="contactLine"></span></li>
+                <li><svg class="icon"><use href="#i-mail"/></svg> อีเมล: <span id="contactEmail"></span></li>
+              </ul>
+              <pre class="order-text" id="orderText"></pre>
+              <button type="button" class="btn btn-soft" id="copyOrder"><svg class="icon"><use href="#i-copy"/></svg> คัดลอกข้อความสรุปคำสั่งซื้อ</button>
+            </div>
+
+            <div class="step-actions center">
+              <a href="index.html#courses" class="btn btn-outline">ดูคอร์สอื่น</a>
+              <a href="index.html" class="btn btn-primary">กลับหน้าแรก</a>
+            </div>
+          </section>
+
+        </form>
+
+        <!-- ===================== ORDER SUMMARY ===================== -->
+        <aside class="order-summary" aria-labelledby="summaryTitle">
+          <h2 id="summaryTitle">สรุปคำสั่งซื้อ</h2>
+
+          <div class="summary-course">
+            <div class="summary-thumb" id="summaryThumb"></div>
+            <div>
+              <span class="badge" id="summaryBadge"></span>
+              <h3 id="summaryTitleText"></h3>
+              <ul class="course-meta" id="summaryMeta"></ul>
+            </div>
+          </div>
+
+          <div class="field summary-select">
+            <label for="courseSelect">เปลี่ยนคอร์ส</label>
+            <select id="courseSelect" name="course" form="checkoutForm"></select>
+          </div>
+
+          <dl class="summary-lines">
+            <div><dt>ราคาคอร์ส</dt><dd id="linePrice"></dd></div>
+            <div class="total"><dt>ยอดชำระทั้งหมด</dt><dd data-total></dd></div>
+          </dl>
+
+          <ul class="summary-perks">
+            <li><svg class="icon"><use href="#i-check"/></svg> ได้รับลิงก์เข้าเรียนทางอีเมลหลังตรวจสอบการชำระเงิน</li>
+            <li><svg class="icon"><use href="#i-check"/></svg> เรียนผ่านออนไลน์ได้ทุกที่ ทุกเวลา</li>
+          </ul>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="checkout-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Smart Leader Thailand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- QR Code generator (สร้าง PromptPay QR ในเบราว์เซอร์) -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js" defer></script>
+  <script src="checkout.js" defer></script>
+</body>
+</html>
